@@ -1,0 +1,23 @@
+# source: 1950-2020 = 総務省統計局『国勢調査報告』ほか via IPSS 人口統計資料集2026 表1-3 https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2026/T01-03.files/sheet001.htm (unit 1000 persons, Oct 1; read via WebFetch). 2025 = 令和7年国勢調査 人口速報集計 https://www.stat.go.jp/data/kokusei/2025/kekka/pdf/summary.pdf. Projections = IPSS 令和5年推計 出生中位・死亡中位 via secondary pages (nippon.com h01664; ipss.repo.nii.ac.jp 23790303.pdf; mhlw 001093650.pdf); only the years listed were retrievable.
+year,type,population_thousand,note
+1950,actual,83200,
+1955,actual,89276,
+1960,actual,93419,
+1965,actual,98275,
+1970,actual,103720,
+1975,actual,111940,
+1980,actual,117060,
+1985,actual,121049,
+1990,actual,123611,
+1995,actual,125570,
+2000,actual,126926,
+2005,actual,127768,
+2008,actual_peak,128080,"peak year/value 1億2808万人 from nippon.com (secondary) - rounded to 万人"
+2010,actual,128057,
+2015,actual,127095,
+2020,actual,126146,
+2025,census_prelim,123049.524,"令和7年国勢調査 速報 (2020比 -3,096,575 / -2.5%)"
+2045,IPSS2023_medium,108800,"万人単位 10,880万 (ipss.repo.nii.ac.jp)"
+2056,IPSS2023_medium,,"1億人を割る見通し (nippon.com)"
+2065,IPSS2023_medium,91590,"9,159万"
+2070,IPSS2023_medium,87000,"8,700万 (2020比69.0%)"

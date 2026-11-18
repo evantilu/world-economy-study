@@ -1,0 +1,8 @@
+decision_date,new_target_level_pct,previous_level_pct,vote,source_url,read_on
+2024-03-19,0 to 0.1,-0.1 (negative rate ended),8-1 majority,https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240319a.htm,fetched page text
+2024-07-31,0.25,0 to 0.1,n/a,https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240731a.htm,fetched page text (statement states 0.25 level; prior level from Mar-2024 statement)
+2025-01-24,0.5,0.25,n/a,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2025/k250124b.pdf,fetched PDF text
+2025-12-19,0.75,0.5,n/a,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2025/k251219b.pdf,fetched PDF text
+2026-06-16,1.0,0.75,7-1,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf,fetched PDF text
+2026-09-18,1.25,1.0,7-2,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf,fetched PDF text
+2026-10-30,1.25 (unchanged),1.25,8-1 majority,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf,fetched PDF text (hold; also changed pace of ETF sales)

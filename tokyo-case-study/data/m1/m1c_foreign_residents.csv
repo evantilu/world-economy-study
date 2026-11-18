@@ -1,0 +1,16 @@
+# source: 法務省出入国在留管理庁 在留外国人統計 (年末). 2012-2022 national: https://www.pref.chiba.lg.jp/kokusai/toukeidata/gaikokujinjumin/documents/8hyo.pdf ; 2018-2022 Tokyo: https://www.moj.go.jp:443/isa/content/001393064.pdf ; 2023-2024: https://www.pref.ibaraki.jp/bugai/kokusai/tabunka/jpn/data/documents/02_202412zenkokugaikokujin.pdf ; 2025: https://www.nippon.com/ja/japan-data/h02750/ (ISA 2025年末). Tokyo 2012-2017 NOT obtained. Tokyo 2023 derived (2024 value minus +75,584).
+year_end,japan_total,tokyo,note
+2012,2033656,,
+2013,2066445,,
+2014,2121831,,
+2015,2232189,,
+2016,2382822,,
+2017,2561848,,
+2018,2731093,567789,
+2019,2933137,593458,
+2020,2887116,560180,
+2021,2760635,531131,
+2022,3075213,596148,
+2023,3410992,663362,Tokyo derived
+2024,3768977,738946,
+2025,4125395,801438,Tokyo 19.4% of national; +8.5% yoy; national +356418 (+9.5%)

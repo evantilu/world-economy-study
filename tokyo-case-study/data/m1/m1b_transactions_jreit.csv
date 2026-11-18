@@ -1,0 +1,11 @@
+item,period,value,unit,definition,source_url,read_on
+CRE investment volume (JLL),2026H1,3.7517,trillion yen,commercial RE investment; +17% y/y; record first half,https://www.jll.com/ja-jp/newsroom/japan-investment-market-dynamics-2026q2,fetched (summary)
+CRE investment volume (JLL),2026Q2,1.6765,trillion yen,+53% y/y,same,fetched (summary)
+Foreign investor volume (JLL),2026H1,1.1105,trillion yen,30% share; +1% y/y,same,fetched (summary)
+JLL FY2026 forecast,2026,7,trillion yen,~+10% y/y,same,fetched (summary)
+Investment volume (CBRE),2025,6.5,trillion yen,record since CBRE series start; per Nomura RE article,https://www.nomu.com/cre-navi/market/20260303.html,fetched (summary)
+Foreign investor volume (CBRE),2025,>2,trillion yen,'2兆円超'; share ~31% is my arithmetic (2/6.5) not stated,same,fetched (summary)
+TSE REIT index (price),2026-06-30,1805.16,points,-10.3% vs 2025 year-end; Jan mid peak 2067; early-Jun trough ~1750,https://www.ares.or.jp/action/monthly/pdf/ares_monthly_report_202607.pdf,fetched PDF text
+TSE REIT index (price),2026-08-31,1783.49,points,,https://www.ares.or.jp/action/monthly/pdf/ares_monthly_report_202609.pdf,fetched PDF text
+TSE REIT index (price),2026-09-30,1707.14,points,,https://www.ares.or.jp/action/monthly/pdf/ares_monthly_report_202610.pdf,fetched PDF text
+TSE REIT index (price),2026-10-31,1648.88,points,-3.41% 1m; -12.31% 6m; -15.98% 1y; avg forecast yield 5.66%; avg NAV multiple 0.76x,https://www.ares.or.jp/action/monthly/pdf/ares_monthly_report_202611.pdf,fetched PDF text

@@ -1,0 +1,14 @@
+period,area,avg_price_man_yen,price_per_sqm_man_yen,median_price_man_yen,units,note,source_url
+2026H1(Jan-Jun),首都圏,10135,,8040,,median 8040 (+14.6% vs 2025H2 7017); avg from median release table,https://www.fudousankeizai.co.jp/share/mansion/683/mdn20260813.pdf
+2026H1(Jan-Jun),東京23区,14249,,12153,2684,65.4% of 23ku units were 億ション,https://www.fudousankeizai.co.jp/share/mansion/683/mdn20260813.pdf
+2025H2,東京23区,13932,,11494,,,same
+2025H1,東京23区,13064,,11010,,,same
+FY2026 H1(Apr-Sep 2026),首都圏,11494,170.0,,8601,"first time >1億 for a half-year; +21.1% y/y; ㎡単価 +18.8% (+26.9万 => implies prior yr 143.1)",https://www.fudousankeizai.co.jp/share/mansion/689/2649_s.pdf
+FY2026 H1(Apr-Sep 2026),東京23区,17925,267.8,,3313,+34.7% / +30.1% y/y,same
+FY2026 H1(Apr-Sep 2026),東京都下,7978,117.8,,874,,same
+FY2026 H1(Apr-Sep 2026),神奈川県,7716,114.9,,2211,,same
+FY2026 H1(Apr-Sep 2026),埼玉県,6457,97.4,,873,,same
+FY2026 H1(Apr-Sep 2026),千葉県,7376,104.3,,1330,,same
+2026-09 monthly,首都圏,9552,145.8,,1142,-4.1% y/y avg; ㎡ -0.5%; 初月契約率 50.4%; 在庫 6775; 2 months consecutive y/y fall,https://www.fudousankeizai.co.jp/share/mansion/691/RtE7hi21.pdf
+2026-09 monthly,東京23区,13940,219.2,,409,契約率 46.0%,same
+2026-09 monthly,都心6区,19307,302.3,,72,prior-year month 20396 / 320.2,same

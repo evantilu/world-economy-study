@@ -1,0 +1,23 @@
+# 重大事件/政策. verified=fetched 表示本次實際讀到該頁; unverified=僅出現在任務說明, 本次未取得來源(日期勿直接引用)
+date,event,description,verified,source_url
+1985-09,プラザ合意,(任務說明所列;本次未取得來源),unverified,
+1987-02-23,公定歩合 2.5%への引下げ,戦後最低水準の低金利政策の開始(~1989-05まで継続),fetched,https://www.boj.or.jp/statistics/boj/other/discount/discount.htm | https://www.esri.cao.go.jp/jp/esri/archive/e_rnote/e_rnote020/e_rnote019.pdf
+1989-05-31,公定歩合 利上げ開始(2.5→3.25%),以後 1990-08-30 に 6.00% まで5回引上げ,fetched,https://www.boj.or.jp/statistics/boj/other/discount/discount.htm
+1989-12-29,日経平均 史上最高値 終値38915.87円,バブル絶頂,fetched,https://media.rakuten-sec.net/articles/-/51016
+1990-03,不動産向け融資の総量規制 開始,大蔵省による不動産向け貸出の総量規制(1990年3月~1991年12月解除),fetched,https://www.esri.cao.go.jp/jp/esri/archive/e_rnote/e_rnote020/e_rnote019.pdf
+1990-08-30,公定歩合 6.00%(バブル期最高),利上げ局面の最終点,fetched,https://www.boj.or.jp/statistics/boj/other/discount/discount.htm
+1991-12,総量規制 解除,同上,fetched,https://www.esri.cao.go.jp/jp/esri/archive/e_rnote/e_rnote020/e_rnote019.pdf
+1992,地価税 導入,(任務説明所列;本次未取得來源;ESRI文書は譲渡所得39%重課への言及のみ確認),unverified,
+1997-11/1998,北海道拓殖銀行・山一證券・日本長期信用銀行・日本債券信用銀行 破綻/国有化,(任務説明所列;本次未取得來源。FSA表上で旧長信銀の貸出金が1999-03期までに急減する事実のみ確認),unverified,
+1999-02-12,ゼロ金利政策 導入(~2000-08-11解除),短期金利誘導目標「できるだけ低め」(事実上ゼロ%)+時間軸政策,fetched,https://www.boj.or.jp/mopo/outline/bpreview/ref.htm
+2001-03,量的緩和政策 開始(~2006-03),操作目標を日銀当座預金残高へ,fetched,https://www.boj.or.jp/mopo/outline/bpreview/ref.htm
+2002-03,不良債権ピーク(全国銀行 金融再生法開示債権 43.2兆円/8.4%; 主要行 26.8兆円/8.4%),金融庁表1で1999-03以降の系列上の最大値,fetched,https://www.fsa.go.jp/status/npl/20070809/data01.pdf
+2003,りそな,(任務説明所列;本次未取得來源。FSA表の注5に15年3月期以降 埼玉りそな銀行を含む旨のみ確認),unverified,
+2008,GFC(リーマン),(未取得來源。日経年末終値は2008=8859.56で2007比 -42%(本CSVより算出)),unverified,
+2008-12-19,基準割引率 0.30%,GFC後の引下げ,fetched,https://www.boj.or.jp/statistics/boj/other/discount/discount.htm
+2011-03-15,日経平均 8605.15円(震災2営業日後に1015円安),東日本大震災,fetched(secondary),https://en.wikipedia.org/wiki/Nikkei_225
+2013-04,量的・質的金融緩和(QQE)開始(~2024-03),操作目標をマネタリーベースへ,fetched,https://www.boj.or.jp/mopo/outline/bpreview/ref.htm
+2016-01,マイナス金利付きQQE導入,日銀当座預金の一部に▲0.1%,fetched,https://www.boj.or.jp/mopo/outline/bpreview/ref.htm
+2016-09,長短金利操作付きQQE(YCC)導入,長期金利操作目標ゼロ%程度,fetched,https://www.boj.or.jp/mopo/outline/bpreview/ref.htm
+2020,COVID-19,(任務説明所列;本次未取得來源。日経年末2020=27444.17),unverified,
+2024-03-19,マイナス金利解除・YCC撤廃,無担保コールO/N 0~0.1%程度へ; ETF/J-REIT新規買入れ終了,fetched,https://www.boj.or.jp/mopo/mpmdeci/state_2024/k240319a.htm

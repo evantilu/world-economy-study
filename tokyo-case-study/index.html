@@ -81,6 +81,7 @@ details[open]>summary{border-bottom:1px solid var(--line);margin-bottom:.6em}
 .fbtn.has{color:var(--accent);border-color:var(--accent)}
 /* callouts */
 .co{border:0;border-radius:10px;padding:.7em 1em;margin:1.1em 0;color:var(--fg)}
+.co ol,.co ul{padding-left:1.25em;margin:.3em 0}
 .co .cot{font-weight:700;font-size:.9em;margin-bottom:.2em;display:block}
 .co.key{background:var(--key-bg)}.co.key .cot{color:var(--key)}
 .co.warn{background:var(--warn-bg)}.co.warn .cot{color:var(--warn)}
@@ -273,8 +274,9 @@ const Chart=(function(){
     // x ticks
     const maxT=narrow?5:8;let idx=[];
     if(numX&&spec.type==='line'){const st=nice(spec.x[0],spec.x[n-1],maxT-1);const xs=spec.x;st.forEach(v=>{let b=-1,bd=1e9;xs.forEach((x,i)=>{const d=Math.abs(x-v);if(d<bd){bd=d;b=i}});if(bd<1e-9||Math.abs(xs[b]-v)<=(xs[1]-xs[0])/2)if(!idx.includes(b))idx.push(b);});}
+    else if(spec.x.every(v=>/^\d{4}-\d{2}$/.test(v))){const jan=spec.x.map((v,i)=>v.endsWith('-01')?i:-1).filter(i=>i>=0);const st=Math.ceil(jan.length/maxT);idx=jan.filter((_,k)=>k%st===0);idx.lab=i=>spec.x[i].slice(0,4);}
     else{const step=Math.ceil(n/maxT);for(let i=0;i<n;i+=step)idx.push(i);}
-    idx.forEach(i=>{const tx=el('text',{x:X(i),y:H-6,'text-anchor':'middle'});tx.textContent=spec.x[i];});
+    idx.forEach(i=>{const tx=el('text',{x:X(i),y:H-6,'text-anchor':'middle'});tx.textContent=idx.lab?idx.lab(i):spec.x[i];});
     // events
     (spec.events||[]).forEach((e,k)=>{let i=spec.x.indexOf(e.x);if(i<0&&numX){let bd=1e9;spec.x.forEach((x,j)=>{const d=Math.abs(x-e.x);if(d<bd){bd=d;i=j}});}if(i<0)return;
       const g=el('g',{class:'evt'});const x=X(i);el('line',{x1:x,x2:x,y1:m.t-2,y2:m.t+ph,stroke:css('--axis'),'stroke-dasharray':'3 3'},g);

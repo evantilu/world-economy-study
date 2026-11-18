@@ -1,0 +1,44 @@
+# 日経平均(Nikkei 225) 年末(大納会)終値. 1985-2015: en.wikipedia.org/wiki/Nikkei_225 年次表(転記; 日経公式アーカイブを引用元とするが公式ページはCloudflareで未取得; 1989=38915.87は楽天証券トウシル記事で独立確認). 2016-2025: 日経公式月次CSV 12月終値 https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv. 2026: 日経公式日次CSV最終行.
+year,close,date_note,source_url
+1985,13113.32,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1986,18701.30,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1987,21564.00,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1988,30159.00,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1989,38915.87,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1990,23848.71,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1991,22983.77,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1992,16924.95,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1993,17417.24,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1994,19723.06,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1995,19868.15,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1996,19361.35,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1997,15258.74,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1998,13842.17,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+1999,18934.34,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2000,13785.69,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2001,10542.62,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2002,8578.95,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2003,10676.64,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2004,11488.76,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2005,16111.43,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2006,17225.83,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2007,15307.78,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2008,8859.56,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2009,10546.44,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2010,10228.92,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2011,8455.35,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2012,10395.18,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2013,16291.31,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2014,17450.77,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2015,19033.71,year-end,https://en.wikipedia.org/wiki/Nikkei_225
+2016,19114.37,year-end (Dec monthly close),https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv
+2017,22764.94,year-end (Dec monthly close),https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv
+2018,20014.77,year-end (Dec monthly close),https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv
+2019,23656.62,year-end (Dec monthly close),https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv
+2020,27444.17,year-end (Dec monthly close),https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv
+2021,28791.71,year-end (Dec monthly close),https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv
+2022,26094.50,year-end (Dec monthly close),https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv
+2023,33464.17,year-end (Dec monthly close),https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv
+2024,39894.54,year-end (Dec monthly close),https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv
+2025,50339.48,year-end (Dec monthly close),https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_monthly_jp.csv
+2026,58860.43,2026-11-17 latest daily close,https://indexes.nikkei.co.jp/nkave/historical/nikkei_stock_average_daily_jp.csv

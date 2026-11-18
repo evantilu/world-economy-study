@@ -1,0 +1,16 @@
+period,sqm_price_man_yen_per_sqm,deal_price_man_yen,yoy_sqm_pct,note,source_url
+2023Q1,69.02,4366,7.7,,https://www.reins.or.jp/pdf/trend/sf/sf_202601-03.pdf
+2023Q2,71.15,4556,6.0,,same
+2023Q3,72.69,4621,6.3,,same
+2023Q4,74.78,4760,7.3,,same
+2024Q1,75.78,4845,9.8,,same
+2024Q2,77.50,4940,8.9,,same
+2024Q3,76.74,4875,5.6,,same
+2024Q4,77.57,4900,3.7,,same
+2025Q1,79.81,5011,5.3,,same
+2025Q2,82.85,5188,6.9,,same
+2025Q3,85.18,5314,11.0,,same
+2025Q4,84.16,5287,8.5,,same
+2026Q1,86.26,5492,8.1,,same
+2025-07 monthly,85.47,5303,,3979 deals,https://www.reins.or.jp/pdf/trend/mw/mw_202607_summary.pdf
+2026-07 monthly,84.17,5267,-1.5,3638 deals (-8.6% y/y; 4th consecutive monthly decline in count); +1.9% m/m ㎡,https://www.reins.or.jp/pdf/trend/mw/mw_202607_summary.pdf

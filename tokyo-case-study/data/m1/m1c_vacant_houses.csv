@@ -1,0 +1,16 @@
+# source: 住宅・土地統計調査 (総務省統計局). 1963-2018 = https://www.stat.go.jp/data/jyutaku/2018/pdf/g_gaiyou.pdf (1963,1968 exclude 沖縄県); 2023 = https://www.stat.go.jp/info/guide/asu/pdf/2026asu_3-2.pdf (stat.go.jp, read) ; 2018 revised to ~849万 in 2023 comparison (honkawa2 chart + 2023 +51.3万 delta). 1958 NOT obtained. units: 万戸, %.
+survey_year,total_dwellings_man,vacant_man,vacant_rate_pct,note
+1958,,,,not obtained
+1963,2109,52,2.5,excl. Okinawa
+1968,2559,103,4.0,excl. Okinawa
+1973,3106,172,5.5,
+1978,3545,268,7.6,
+1983,3861,330,8.6,
+1988,4201,394,9.4,
+1993,4588,448,9.8,
+1998,5025,576,11.5,
+2003,5389,659,12.2,
+2008,5759,757,13.1,
+2013,6063,820,13.5,
+2018,6242,846,13.6,"2023 report compares vs 849万 (re-tabulated)"
+2023,6504.7,900.2,13.8,

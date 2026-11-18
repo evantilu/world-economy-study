@@ -1,0 +1,37 @@
+period,usdjpy_avg,n_obs,note,source
+2020Q1,108.93,62,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2020Q2,107.52,64,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2020Q3,106.10,64,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2020Q4,104.47,60,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2021Q1,106.17,60,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2021Q2,109.43,64,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2021Q3,110.07,64,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2021Q4,113.64,61,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2022Q1,116.36,62,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2022Q2,129.73,63,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2022Q3,138.35,64,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2022Q4,141.36,61,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2023Q1,132.44,62,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2023Q2,137.35,63,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2023Q3,144.53,63,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2023Q4,147.78,61,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2024Q1,148.56,62,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2024Q2,155.78,63,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2024Q3,149.10,64,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2024Q4,152.39,62,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2025Q1,152.40,61,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2025Q2,144.49,63,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2025Q3,147.51,64,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2025Q4,154.07,62,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2026Q1,156.90,61,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2026Q2,159.36,63,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2026Q3,159.25,64,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2026Q4,158.15,30,quarterly avg of daily noon NY buying rates,FRED DEXJPUS (Fed H.10) https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS
+2020,106.78,250,annual avg,FRED DEXJPUS
+2021,109.84,249,annual avg,FRED DEXJPUS
+2022,131.46,250,annual avg,FRED DEXJPUS
+2023,140.50,249,annual avg,FRED DEXJPUS
+2024,151.46,251,annual avg,FRED DEXJPUS
+2025,149.57,250,annual avg,FRED DEXJPUS
+2026,158.47,218,annual avg (YTD to 2026-11-13),FRED DEXJPUS
+latest 2026-11-13,159.93,1,latest daily,FRED DEXJPUS

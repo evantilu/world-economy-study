@@ -1,0 +1,10 @@
+# source: 賃貸用/売却用/二次的/その他 = 京都府 tktokushu202407.pdf (secondary reproduction of 総務省 第2表; WebFetch noted column misalignment, rearranged to match text; sum 8,995,200 != headline 9,002k). "その他"(使用目的のない) headline = 385.6万戸 / 5.9% from stat.go.jp 2026asu_3-2.pdf. Tokyo = pref.okinawa.jp 2023 gaiyou.pdf (897千/8,201千=10.9%); Kyoto pref pdf says 11.0% (conflict).
+category,units,share_pct,source_note
+賃貸用の住宅,4432600,49.3,Kyoto pref pdf
+売却用の住宅,327000,3.6,Kyoto pref pdf
+二次的住宅,383000,4.3,Kyoto pref pdf
+その他の住宅(賃貸・売却用及び二次的住宅を除く),3852700,42.8,Kyoto pref pdf (stat.go.jp: 3,856,000 ; 5.9% of total dwellings)
+合計(sum of rows),8995200,100,
+全国 空き家数(headline),9002000,13.8,stat.go.jp
+東京都 空き家数,897000,10.9,okinawa pref pdf (総住宅数 8,201千戸)
+東京都 空き家率 2013/2018/2023,,11.1/10.6/11.0,Kyoto pref pdf
