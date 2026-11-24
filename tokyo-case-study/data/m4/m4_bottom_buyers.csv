@@ -1,0 +1,45 @@
+# 2026-11-24 擷取。1998-2005年日本不動產底部買方與公共處理。口徑：金額單位寫在欄位內；US$為原文美元。
+# 主要來源：野村資本市場研究所1999冬(nicmr.com)、Cambridge Associates 2002、Wharton Real Estate Review 2012、金融廳/金融再生委員会(fsa.go.jp)、會計檢查院2005報告(report.jbaudit.go.jp)、內閣府產業再生機構(cao.go.jp)、JPX J-REIT GUIDE BOOK 2026.8、ARES J-REIT Databook(2026-11)。
+# read_mode：讀PDF全文＝下載後以pdftotext讀；WebFetch摘要＝經抓取工具摘要未見全文；僅搜尋片段＝只見搜尋結果文字。
+# 報酬(IRR/倍數)：外資基金實現報酬公開查無；Cambridge的20%為目標值。
+year,category,buyer,target_or_type,scale,return_or_price_terms,source_url,read_mode,note
+1997-03期,NPL一括売却(バルクセール),Cargill,東京三菱銀行の不良債権,50億円,,https://www.nicmr.com/nicmr/report/repo/1999/1999win03.pdf,讀PDF全文(表2),表由野村総研據各種報道整理；買方名以表為準；1997-98年多筆表內期別標籤位置跑掉故下列多筆年份寫1997-1998
+1997-1998,NPL一括売却(バルクセール),Goldman Sachs,東京三菱銀行 125億円；住友銀行 400億円(兩筆),合計525億円,價格未載,https://www.nicmr.com/nicmr/report/repo/1999/1999win03.pdf,讀PDF全文(表2),兩筆金額加總為我計算
+1997-1998,NPL一括売却(バルクセール),Bankers Trust 他,クラウンリーシング債権,2800億円,價格未載,https://www.nicmr.com/nicmr/report/repo/1999/1999win03.pdf,讀PDF全文(表2),賣方為非銀行リース公司
+1997-1998,NPL一括売却(バルクセール),Lone Star Opportunity Fund,東京三菱銀行の不良債権,200億円,價格未載,https://www.nicmr.com/nicmr/report/repo/1999/1999win03.pdf,讀PDF全文(表2),Lone Star早期進場之一
+1997-1998,NPL一括売却(バルクセール),Merrill Lynch 他,三和銀行 1500億円；さくら銀行(金額N.A.),1500億円以上,價格未載,https://www.nicmr.com/nicmr/report/repo/1999/1999win03.pdf,讀PDF全文(表2),
+1997-1998,NPL一括売却(バルクセール),Secured Capital,三井信託銀行の不良債権,1300億円,價格未載,https://www.nicmr.com/nicmr/report/repo/1999/1999win03.pdf,讀PDF全文(表2),表中另有住友銀行1000億円一列買方標N.A.
+1997H2-1998H1,市場總量,(各買方合計),銀行バルクセール全体,1997下期3兆円；1998上期2兆円,,https://www.nicmr.com/nicmr/report/repo/1999/1999win03.pdf,讀PDF全文(註4),野村資本市場研究所引用日本經濟新聞1998-10-19朝刊；二手引用
+1998-03,NPL一括売却(バルクセール),美國金融機構2家(名稱未載),さくら銀行問題債権,4000億円,約為帳面價值15%(業界人士說法),https://www.business-standard.com/amp/article/specials/japan-problem-loans-higher-than-mof-estimate-198041101041_1.html,僅搜尋片段(頁面403),Business Standard 1998-04-11；未見原文；買方是否為Lone Star未能核實(日文二手文章曾稱之但未見原始依據)
+1997-2002,市場總量,外資機會型基金(Cerberus/Goldman/Lone Star/Moore等),日本不良資產(貸款、企業實體、不動產),約US$300億投入對應帳面約US$3000億,單純比值約10%(我的計算；含企業與不動產非純NPL折價),https://publishedresearch.cambridgeassociates.com/wp-content/uploads/2014/11/Japanese-Distressed-Investing-2002.pdf,讀PDF全文,Cambridge Associates 2002引Ernst & Young；Cambridge屬機構投資人顧問、素材部分來自基金自述
+1997-2002,NPL折價,外資基金,Class IV(破産先)債權一括売却,,早期5~10美分/美元；後期納入Class II/III後價格上升,https://publishedresearch.cambridgeassociates.com/wp-content/uploads/2014/11/Japanese-Distressed-Investing-2002.pdf,讀PDF全文,價格為Cambridge Associates敘述，非逐筆成交價
+1998-2002,基金目標報酬,日本專攻distressed基金,,,目標IRR超過20%(目標值非實現值),https://publishedresearch.cambridgeassociates.com/wp-content/uploads/2014/11/Japanese-Distressed-Investing-2002.pdf,讀PDF全文,Cambridge稱1998-99年份基金多數可能超越此目標，但當時尚未了結；實現報酬公開查無
+1998,基金規模,Lone Star Fund II,,基金規模US$12.28億；配置日本US$6.24億,,https://publishedresearch.cambridgeassociates.com/wp-content/uploads/2014/11/Japanese-Distressed-Investing-2002.pdf,讀PDF全文(表),
+1998,基金規模,Morgan Stanley MSREF III,,基金規模US$21.2億；配置日本US$3.7億,,https://publishedresearch.cambridgeassociates.com/wp-content/uploads/2014/11/Japanese-Distressed-Investing-2002.pdf,讀PDF全文(表),MSREF IV(募集中)規模US$30億；配置日本US$18.75億
+1999,基金規模,Cerberus Asia Partners,,基金規模US$13.27億；配置日本US$12.5億,,https://publishedresearch.cambridgeassociates.com/wp-content/uploads/2014/11/Japanese-Distressed-Investing-2002.pdf,讀PDF全文(表),
+1999,基金規模,Goldman Sachs GS Special Opportunities (Asia) Fund,,基金規模US$15.25億；配置日本US$10.37億,,https://publishedresearch.cambridgeassociates.com/wp-content/uploads/2014/11/Japanese-Distressed-Investing-2002.pdf,讀PDF全文(表),
+1999,基金規模,Moore Japan Restructuring Fund,,基金規模US$6.71億；配置日本US$6.71億,,https://publishedresearch.cambridgeassociates.com/wp-content/uploads/2014/11/Japanese-Distressed-Investing-2002.pdf,讀PDF全文(表),
+2000,基金規模,Lone Star Fund III,,基金規模US$22.62億；配置日本US$13.57億,,https://publishedresearch.cambridgeassociates.com/wp-content/uploads/2014/11/Japanese-Distressed-Investing-2002.pdf,讀PDF全文(表),Fund IV(募集中)規模US$35億；配置日本US$24億
+2002-2004,基金規模,KK daVinci / Aetos / Secured Capital Japan,日本專攻基金,daVinci US$4.34億(2002-11)；Aetos US$8.4億(2002-12)；SCJ US$1.186億(2004),,https://realestate.wharton.upenn.edu/wp-content/uploads/2017/03/732.pdf,讀PDF全文,Wharton Real Estate Review 2012 (Douvas)；同文稱最大NPL買方為Lone Star、Whitehall、GECC、MSREF，並稱Blackstone完全缺席日本
+2000,典型不動產條件,外資不動產基金,日本不動產,,入場收益率8%；融資LTV 80%；全包利率1.5~2.3%,https://realestate.wharton.upenn.edu/wp-content/uploads/2017/03/732.pdf,讀PDF全文,Wharton敘述性描述；非特定案件
+1999-2001,外資收購銀行,Lone Star,東京相和銀行(後Tokyo Star Bank),得標額403億円,,https://www.fccj.or.jp/index.php/number-1-shimbun-article/tokyo-star-crossed,WebFetch摘要,FCCJ稱銀行1999-06倒閉、資本缺口1022億円、預保機構贈與7626億円、RCC以帳面5027億円買壞帳後僅回收1242億円；拍賣日期原文未載(Wikipedia摘要稱2001-02完成收購)
+2005-10,外資收購銀行,Lone Star,Tokyo Star Bank IPO,出售持股1/3,價金854億円,https://www.fccj.or.jp/index.php/number-1-shimbun-article/tokyo-star-crossed,WebFetch摘要,
+2007-12~2008,外資收購銀行,Lone Star→Advantage Partners,Tokyo Star Bank剩餘68%,全部股份收購總額2500億円,融資1700億円(由Lone Star與銀行團提供),https://www.fccj.or.jp/index.php/number-1-shimbun-article/tokyo-star-crossed,WebFetch摘要,2011年債權人取得全部股權；2013-14年CTBC以520億円收購
+2003-06,外資收購銀行,Cerberus NCB Acquisition,あおぞら銀行(原日本債券信用銀行)SoftBank持股,1385548000股,1011億円(1股73円)；SoftBank非合併個別損益約+500億円,https://group.softbank/en/news/press/20030630,WebFetch摘要,SoftBank自2000年與歐力士等取得；賣方報酬非Cerberus報酬
+2013-01,外資收購銀行,Cerberus 出場,あおぞら銀行股份,約1581億円(Bloomberg報導),,https://www.bloomberg.com/news/articles/2013-01-07/cerberus-to-end-nine-year-control-of-aozora-bank-with-stake-sale,僅搜尋片段,Cerberus持股自58%降至7.7%；進場價與總報酬公開查無
+2004-08,外資收購不動產,Lone Star,赤坂3棟辦公大樓(賣方Kokusai Motorcars),1170億円(約US$10.6億),,https://japantimes.co.jp/article/624121,僅搜尋片段,搜尋摘要稱為外資6年來最大買進；原頁未能讀取
+2011-03,外資出場,Lone Star→三菱地所,赤坂辦公大樓等,約900億円(日經報導),,https://www.avcj.com/avcj/news/59106/lone-star-exits-realty-portfolio-to-mitsubishi-estate,WebFetch摘要,AVCJ未載取得時點與成本；與2004赤坂案是否同一標的未能確認，不可直接當作報酬計算
+2000-02,外資收購銀行,Ripplewood(ニュー・LTCB・パートナーズ C.V.),日本長期信用銀行(今新生銀行),新股3億股@400円=1200億円+既有普通股2417075000股=10億円；合計1210億円,(買方出資額),https://www.fsa.go.jp/frc/news/n082b.pdf,讀PDF全文,預金保険機構與買方株式売買契約書2000-02-09；實行日2000-03-01(契約內預定)
+2000-2001,公共負擔(LTCB),預金保険機構/政府,金銭贈与+損失補てん,金銭贈与3兆2350億円；損失補てん3549億円,,https://www.fsa.go.jp/frc/news/n192.html,讀頁(Shift_JIS轉碼),金融再生委員会2001-01-05決議之變更後金額；變更前3489億円與3兆2391億円
+2000-03,公共負擔(LTCB),整理回収機構(預保委託),新規優先株式,2400億円,,https://report.jbaudit.go.jp/org/h16/2004-h16-0628-0.htm,讀頁,會計檢查院報告；另已有1998-03之優先株式1300億円與劣後ローン466億円(後者2003-03全額返還)
+2000-2004,公共負擔(LTCB),預金保険機構,瑕疵担保条項に基づく貸出関連資産の引取り(新生銀行分),331件；引取時債權額1兆2119億円,支払額8928億円(至2004年度末),https://report.jbaudit.go.jp/org/h16/2004-h16-0628-0.htm,讀頁(表2),會計檢查院2005報告；兩行合計486件、債權1兆6573億円、支払1兆2213億円；至2004年度末回收率約37.2%(兩行合計)
+2000-2004,公共負擔(LTCB),預金保険機構,買入特別公的管理銀行保有株式(新生銀行分),2兆2692億円(兩行合計2兆9394億円),,https://report.jbaudit.go.jp/org/h16/2004-h16-0628-0.htm,讀頁(表4),買入後部分於新生銀行上場前後被賣回；2004年度末兩行合計帳面2兆3706億円、含損4994億円
+2000,瑕疵担保條項條件,預保vs買方,LTCB貸出関連資産,債務者每戶1億円以上才適用,實行日起3年內；有瑕疵且價值減損2成以上可解除譲渡,https://www.fsa.go.jp/frc/news/n082b.pdf,讀PDF全文(第8條),FSA 2000-08文件另說明NCB(日債銀)為3年1個月，並以金融再生法無虧損分擔規定為由採瑕疵擔保法理 https://www.fsa.go.jp/frc/nsg/nsg.html
+2004-02,外資收購銀行,Ripplewood等(出場),新生銀行 TSE上市,發行價525円；募資約2310億円(CFO)；約US$23.6億(Global Custodian)；上市約1/3,首日收盤827円或開盤872円(Japan Times/搜尋片段),https://www.globalcustodian.com/?p=44451,WebFetch摘要,市值約7010億円(Global Custodian)或約7100億円(Japan Times)兩說；報酬倍數公開查無；發行價日本Times另頁403未能讀取
+2003-2007,公共處理,產業再生機構(IRCJ),支援決定41件,借款總額約4兆円(支援決定時),政府保証枠10兆円(2006-04降為3兆円)；截至2006-05未動用國費,https://www8.cao.go.jp/sangyo/hontai1.pdf,讀PDF全文,內閣府產業再生機構擔當室2006-06報告
+2004-03~2005-12,公共處理,IRCJ,カネボウ及びカネボウ化粧品,債權元本總額5556.54億円；買取1108.19億円；債権放棄995億円(2004-07買取決定時),IRCJ買入カネボウ債權1038.21億円成本472.35億円(約45.5%的比率為我計算),https://www8.cao.go.jp/sangyo/ircj/ja/pdf/shien_kanebo_2004073001.pdf,讀PDF全文,2005-12-16決定將股權債權讓渡花王與Trinity Investment(Advantage Partners/MKS Partners/Unison)；IRCJ對化粧品現金出資860億円+DES 1500億円
+2004-12~2006-11,公共處理,IRCJ,ダイエー等12社,債權元本3666.46億円；債権放棄1125.83億円後買取2470.22億円,現金出資100億円+DES 400億円(議決權33.67%)；2006-08股權賣予丸紅；2006-11殘債權1338.21億円中1257.19億円弁済受領、81.02億円讓渡金融機關,https://www8.cao.go.jp/sangyo/ircj/ja/pdf/shien_daiei_2006111001.pdf,讀PDF全文,IRCJ對此案最終損益本次未查到；支援決定公告見https://www8.cao.go.jp/sangyo/ircj/ja/pdf/shien_daiei_2004122801.pdf
+2007-06,公共處理,IRCJ清算,最終損益,殘餘財產940.3億円；清算時資本金505.0億円,株主(預保/農林中金)分配507.5億円；国庫納付432.8億円；另累計納稅312億円,https://www8.cao.go.jp/sangyo/ircj/ja/pdf/sonota_news_2007060501.pdf,讀PDF全文,2007-03解散時概算:利益剩餘金300億円台後半、納稅300億円台前半(https://www8.cao.go.jp/sangyo/ircj/ja/pdf/sonota_news_2007031501.pdf)；最終殘餘財產與之差距已列於md
+2001-09,J-REIT,日本ビルファンド投資法人/ジャパンリアルエステイト投資法人,首兩檔上市(2001-09-10),2銘柄；時價總額約2600億円(JPX)；資產取得價格3194億円(ARES月末),,https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/J_J-REIT_guidebook_20191227.pdf,讀PDF全文+xlsx,ARES月末(2001-09-30)時價總額2463億円，與JPX上市時約2600億円口徑差(時點不同)
+2007-05,J-REIT,(市場),時價總額高點,41銘柄；約6.7兆円(JPX)；ARES月末6.802兆円,,https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/J_J-REIT_guidebook_20191227.pdf,讀PDF全文+xlsx,
+2025-12,J-REIT,(市場),年末,58銘柄；時價總額17.42兆円；資產取得價格24.08兆円,,https://www.ares.or.jp/action/jreit/xls/ares_jreit_databook_20261031.xlsx,讀xlsx,ARES Databook 2026-11-04更新版；2026-10月末時價總額14.38兆円(同xlsx)

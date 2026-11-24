@@ -1,0 +1,46 @@
+# m3_logistics.csv  首都圈大型物流設施 空置率與租金
+# 主系列: CBRE ジャパンロジスティクスマーケットビュー 首都圈 大型マルチテナント型物流施設(LMT) 全體(含新竣工) 空室率% 與 實質賃料(円/坪/月 CBRE稱 實質賃料=含激勵措施等後的有效租金 精確定義未於所讀頁面載明)
+# LMT定義(讀自2024-2026年PDF調查概要): 首都圏 延床面積10 000坪以上 之大型マルチテナント型物流施設; 2017-2023年各期是否同一門檻 本次未逐期驗證
+# 讀取方式: read_cbre_pdf=用WebFetch取得CBRE PDF原檔後pdftotext讀表(Figure 7); read_article_via_WebFetch=經WebFetch讀物流媒體(LNEWS Logistics Today)報導 為摘要工具回述; search_snippet_only=僅搜尋結果片段; derived=由相鄰期報導推算
+# 缺口: 2018Q4 2019Q1租金 2020Q2 2020Q3 2021Q1租金 未取得. CBRE直接頁面(cbre.com cbre.co.jp)對curl與WebFetch回403 無法取得官方歷史表
+# 注意: CBRE事後會修正前期數字(PDF註腳); 2026Q2 PDF讀取4600與某搜尋摘要4390矛盾 以PDF為準
+# 非CBRE列(JLL 一五)口徑不同 僅供交叉參考 不可與CBRE系列同欄比較
+date,quarter,provider,vacancy_pct,rent_jpy_per_tsubo,rent_type,source_url,read_method,note
+2017-09,2017Q3,CBRE,5.8,4050,effective_rent_monthly,https://www.logi-today.com/303077,read_article_via_WebFetch,
+2018-03,2018Q1,CBRE,6.9,4080,effective_rent_monthly,https://www.logi-today.com/315600,read_article_via_WebFetch,
+2018-06,2018Q2,CBRE,5.3,4120,effective_rent_monthly,https://www.logi-today.com/322306,read_article_via_WebFetch,
+2018-09,2018Q3,CBRE,6.1,4140,effective_rent_monthly,https://www.logi-today.com/329061,read_article_via_WebFetch,
+2018-12,2018Q4,CBRE,,,effective_rent_monthly,,, 未取得
+2019-03,2019Q1,CBRE,4.9,,effective_rent_monthly,https://www.lnews.jp/2022/04/o0428411.html,search_snippet_only,空室率僅見於2022Q1報導的比較句 租金未取得
+2019-06,2019Q2,CBRE,2.7,4200,effective_rent_monthly,https://www.logi-today.com/347623,read_article_via_WebFetch,
+2019-09,2019Q3,CBRE,2.4,4230,effective_rent_monthly,https://www.lnews.jp/2019/11/l1106408.html,read_article_via_WebFetch,
+2019-12,2019Q4,CBRE,1.1,4290,effective_rent_monthly,https://www.lnews.jp/2020/01/m0131002.html,read_article_via_WebFetch,
+2020-03,2020Q1,CBRE,0.5,4380,effective_rent_monthly,https://www.lnews.jp/2020/04/m0428405.html,read_article_via_WebFetch,
+2020-06,2020Q2,CBRE,,,effective_rent_monthly,,,未取得
+2020-09,2020Q3,CBRE,,,effective_rent_monthly,,,未取得
+2020-12,2020Q4,CBRE,0.5,4460,effective_rent_monthly,https://www.lnews.jp/2021/01/n0129407.html,read_article_via_WebFetch,
+2021-03,2021Q1,CBRE,1.1,,effective_rent_monthly,https://www.lnews.jp/2021/04/n0430301.html,read_article_via_WebFetch,首都圈整體租金該文未載
+2021-06,2021Q2,CBRE,1.5,4470,effective_rent_monthly,https://www.lnews.jp/2021/08/n0802311.html,read_article_via_WebFetch,
+2021-09,2021Q3,CBRE,2.6,4470,effective_rent_monthly,https://www.lnews.jp/2021/10/n1029409.html,read_article_via_WebFetch,
+2021-12,2021Q4,CBRE,2.3,4470,effective_rent_monthly,https://www.lnews.jp/2022/02/o0201309.html,read_article_via_WebFetch,
+2022-03,2022Q1,CBRE,4.4,4520,effective_rent_monthly,https://www.lnews.jp/2022/04/o0428411.html,read_article_via_WebFetch,
+2022-06,2022Q2,CBRE,4.4,4520,effective_rent_monthly,https://www.lnews.jp/2022/11/o1101306.html,derived_from_Q3_article,空室率=Q3 5.2%減前期比0.8pt推算; 租金=Q3 4550除以1.007推算約4520 與搜尋片段一致; 推定值非直接讀取
+2022-09,2022Q3,CBRE,5.2,4550,effective_rent_monthly,https://www.lnews.jp/2022/11/o1101306.html,read_article_via_WebFetch,
+2022-12,2022Q4,CBRE,5.6,4540,effective_rent_monthly,https://www.lnews.jp/2023/04/p0428315.html,derived_from_Q1_2023_article,空室率5.6=Q1 2023報導內『前期5.6%』; 租金4540=Q1 2023報導『4540對前期比橫ばい』推算
+2023-03,2023Q1,CBRE,8.2,4540,effective_rent_monthly,https://www.lnews.jp/2023/04/p0428315.html,read_article_via_WebFetch,
+2023-06,2023Q2,CBRE,8.2,4510,effective_rent_monthly,https://mktgdocs.cbre.com/2299/aaadecfd-21cf-4ce8-876a-4020aa29420c-607627116/v032024/japan-logistics-marketview-q2-2024-jp.pdf,read_cbre_pdf,空室率與租金亦見於lnews 2023/07/p0731307.html
+2023-09,2023Q3,CBRE,8.9,4520,effective_rent_monthly,https://mktgdocs.cbre.com/2299/aaadecfd-21cf-4ce8-876a-4020aa29420c-607627116/v032024/japan-logistics-marketview-q2-2024-jp.pdf,read_cbre_pdf,
+2023-12,2023Q4,CBRE,9.3,4520,effective_rent_monthly,https://mktgdocs.cbre.com/2299/aaadecfd-21cf-4ce8-876a-4020aa29420c-607627116/v032024/japan-logistics-marketview-q2-2024-jp.pdf,read_cbre_pdf,
+2024-03,2024Q1,CBRE,9.7,4500,effective_rent_monthly,https://mktgdocs.cbre.com/2299/aaadecfd-21cf-4ce8-876a-4020aa29420c-607627116/v032024/japan-logistics-marketview-q2-2024-jp.pdf,read_cbre_pdf,
+2024-06,2024Q2,CBRE,9.7,4490,effective_rent_monthly,https://mktgdocs.cbre.com/2299/aaadecfd-21cf-4ce8-876a-4020aa29420c-607627116/v032024/japan-logistics-marketview-q2-2024-jp.pdf,read_cbre_pdf,
+2024-09,2024Q3,CBRE,10.1,4500,effective_rent_monthly,https://mktgdocs.cbre.com/2299/47bcdb94-73cd-468d-b2f3-0c0dfbcfc466-1733766115/Japan_Logistics_MarketView_Q3_.pdf,read_cbre_pdf,
+2024-12,2024Q4,CBRE,9.8,4500,effective_rent_monthly,https://mktgdocs.cbre.com/2299/47bcdb94-73cd-468d-b2f3-0c0dfbcfc466-1733766115/Japan_Logistics_MarketView_Q3_.pdf,read_cbre_pdf,
+2025-03,2025Q1,CBRE,11.1,4490,effective_rent_monthly,https://mktgdocs.cbre.com/2299/47bcdb94-73cd-468d-b2f3-0c0dfbcfc466-1733766115/Japan_Logistics_MarketView_Q3_.pdf,read_cbre_pdf,
+2025-06,2025Q2,CBRE,10.9,4480,effective_rent_monthly,https://mktgdocs.cbre.com/2299/47bcdb94-73cd-468d-b2f3-0c0dfbcfc466-1733766115/Japan_Logistics_MarketView_Q3_.pdf,read_cbre_pdf,
+2025-09,2025Q3,CBRE,10.4,4480,effective_rent_monthly,https://mktgdocs.cbre.com/2299/47bcdb94-73cd-468d-b2f3-0c0dfbcfc466-1733766115/Japan_Logistics_MarketView_Q3_.pdf,read_cbre_pdf,
+2025-12,2025Q4,CBRE,9.8,4490,effective_rent_monthly,https://mktgdocs.cbre.com/2299/65d900e0-47b3-4648-b7e3-89349d4897be-231584832/Japan_Logistics_MarketView_Q1_.pdf,read_cbre_pdf,亦見lnews 2026/01/s0130706.html
+2026-03,2026Q1,CBRE,9.2,4530,effective_rent_monthly,https://mktgdocs.cbre.com/2299/65d900e0-47b3-4648-b7e3-89349d4897be-231584832/Japan_Logistics_MarketView_Q1_.pdf,read_cbre_pdf,
+2026-06,2026Q2,CBRE,7.8,4600,effective_rent_monthly,https://mktgdocs.cbre.com/2299/17a9d905-ce9f-4dde-901e-4c17d14843a4-524987839/Japan_Logistics_MarketView_Q2_.pdf,read_cbre_pdf,PDF讀取值4600(+1.5% qoq); 另一搜尋摘要稱4390 與PDF不符 以PDF為準
+2026-09,2026Q3,CBRE,7.7,4660,effective_rent_monthly,https://www.logi-today.com/1016262,read_article_via_WebFetch,報導稱創2008年調查以來新高; CBRE原PDF無法取得
+2026-03,2026Q1,JLL,8.2,4823,average_rent_monthly,https://images.discover.jll.com/Web/JLL/%7B86dba590-c71d-49ae-97db-8fd957a638ac%7D_26-insights-tokyo-logistics-market-dynamics-q1-2026-ja.pdf,read_jll_pdf,JLL東京圏(東京/千葉/神奈川/埼玉/茨城西南部) 延床5萬㎡(15125坪)以上 2000年後竣工 平均賃料(月額坪) 前年同期比+3.1% 口徑與CBRE不同 不可直接比較
+2026-07,2026-07,一五不動産情報サービス,7.1,4430,asking_rent_monthly,,search_snippet_only,東京圏物流施設全般(非僅LMT) 2026年7月時點(8月31日公表) 空室率前期比-0.6pt 2025-07曾達9.6%高點; 募集賃料前期比+0.7%; 僅見搜尋摘要 未取得一五原文與URL 僅供參考

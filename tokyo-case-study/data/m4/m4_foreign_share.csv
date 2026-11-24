@@ -1,0 +1,18 @@
+# 2026-11-24 擷取。日本不動產投資額中外資比重，各機構口徑不同，不可跨機構拼接。
+# JLL＝商業用不動產投資額(JLL口徑)；CBRE＝CBRE調查之商業用不動產(2005年起)；MSCI＝跨境買方占交易額。
+# JLL 2025年外資占比在其自身多頁出現34%/38%/39%三個數字，已全列並標明。
+year_or_period,publisher,metric,value,unit,definition,source_url,read_mode,note
+2007,JLL,foreign share of Japan RE investment,34,%,海外投資家投資額/日本不動産投資總額(JLL口徑),https://www.jll.com/ja-jp/insights/review-of-and-outlook-for-the-japan-real-estate-investment-market,讀頁(2026-02-05),JLL稱2007年為「不動產ミニバブル」；總額6兆1610億円(同頁)
+2023,JLL,foreign share,17,%,同上,https://www.jll.com/ja-jp/insights/reasons-why-foreign-investor-have-returned-to-japan-real-estate-investment-market,讀頁(2026-04-02),2023年起外資轉為賣超；辦公投資占比降至1%
+2024,JLL,foreign share,17,%,同上,https://www.jll.com/ja-jp/insights/reasons-why-foreign-investor-have-returned-to-japan-real-estate-investment-market,讀頁(2026-04-02),2024年日本不動產投資總額5兆4875億円(+63%；JLL review頁)
+2025,JLL,total investment,62180,億円,日本不動產投資總額(JLL口徑),https://www.jll.com/ja-jp/insights/reasons-why-foreign-investor-have-returned-to-japan-real-estate-investment-market,讀頁(2026-04-02),超過2007年；JLL review頁預測值為超過6兆1610億円
+2025,JLL,foreign share,39,%,同上,https://www.jll.com/ja-jp/insights/review-of-and-outlook-for-the-japan-real-estate-investment-market,讀頁(2026-02-05),同一家JLL之另一頁(2026-04-02)寫38%(摘要)與34%(內文)；三者互相不一致，建議以JLL年報原檔核對；外資辦公占比42%、賃貸住宅27%、飯店7%
+2025,JLL,foreign share (alt reading),38,%,同上,https://www.jll.com/ja-jp/insights/reasons-why-foreign-investor-have-returned-to-japan-real-estate-investment-market,讀頁(2026-04-02),同頁內文另寫34%，疑為筆誤或不同口徑
+2026Q1-Q3,JLL,total investment,57287,億円,商業用不動產投資額(JLL口徑)；+22% y/y,https://www.jll.com/ja-jp/newsroom/jll-japan-investment-market-dynamics-2026q3,讀頁(2026-10-30),
+2026Q1-Q3,JLL,foreign investment amount,18146,億円,海外投資家投資額；+10% y/y,https://www.jll.com/ja-jp/newsroom/jll-japan-investment-market-dynamics-2026q3,讀頁(2026-10-30),占比32%(JLL自述)；除法約31.7%
+2026H1,JLL,foreign investment amount,11105,億円,同上；占30%；+1% y/y,https://www.jll.com/ja-jp/newsroom/japan-investment-market-dynamics-2026q2,沿用m1b_transactions_jreit.csv(WebFetch摘要)；本次僅重讀總額3兆7517億円,
+2025,CBRE,total investment,65000,億円,日本商業用不動產投資額(CBRE口徑；2005年起調查)；+31% y/y；2007為5.4兆円,https://www.cbre.com/insights/figures/japan-investment-marketview-q4-2025,WebFetch摘要,CBRE頁面未載外資金額或占比
+2025,CBRE(經野村不動產),foreign investor acquisition,20000以上,億円,海外投資家取得額(CBRE統計經野村不動產CRE Navi轉述),https://www.nomu.com/cre-navi/market/20260303.html,WebFetch摘要,占比未明示；若以2兆除6.5兆約31%(我的計算；兩個口徑未必一致)
+2025H1,CBRE,overseas purchases,11400,億円,海外投資家取得額；上半期歷來最高,https://www.nomu.com/cre-navi/market/20250710.html,僅搜尋片段,以搜尋摘要為準，未開原頁
+2025Q1,MSCI Real Capital Analytics(經Knight Frank),cross-border share Japan,28.4,%,跨境買方占日本交易額,https://cm.knightfrank.com/hubfs/Research Reports/Capital Markets/Report PDFs/Asia-Pacific Capital Market Insights Q1 2025 (2-pager).pdf,僅搜尋片段,口徑與JLL/CBRE不同；未開PDF
+(未取得),都市未来総合研究所,外資取得比重,,,,,查無,未搜尋到可核之外資比重公開數字

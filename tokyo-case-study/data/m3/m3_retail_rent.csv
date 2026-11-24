@@ -1,0 +1,22 @@
+# CBRE Japan Retail MarketView 高街(ハイストリート)路面店 銀座與表參道・原宿 平均賃料與空室率 季度(季末月)
+# 口徑: 平均賃料=各高街基準點之期末想定成約賃料 上限與下限平均 1樓路面 整形約60坪(2024Q2版寫約200m2) 單位 円/坪/月 含共益費 不含免租等誘因; prime=想定成約賃料最上限值; 空室率=prime區即入居可空室
+# 注意: 想定成約賃料(估計值)非實際成約資料; 2024Q3銀座因樣本變更空室率已回溯重算 2023-2024Q1空室率或為舊樣本口徑
+# 來源與讀取方式(皆為下載PDF讀到原文表格 Figure 12 市場數據表): 2023-06至2024-06取自 https://mktgdocs.cbre.com/2299/d950b3c1-790d-496f-9ad5-582ae9d9b263-385785642/v032024/japan-retail-marketview-q2-2024-jp.pdf ; 2024-09至2025-06取自 Q2 2025版 https://mktgdocs.cbre.com/2299/10e1dadb-06b0-46f8-9d68-1c481153adc2-2045956700/Japan_Retail_MarketView_Q2_202.pdf ; 2025-09至2025-12取自 Q4 2025版 https://mktgdocs.cbre.com/2299/017f001b-a513-459b-b480-59af1024aa2b-1662204582/Japan_Retail_MarketView_Q4_202.pdf
+# 2026-03取自Q1 2026版 https://mktgdocs.cbre.com/2299/435ac21c-a07d-45e9-bd97-fb11a7ab435f-9743358/Japan_Retail_MarketView_Q1_202.pdf (本文) ; 2026-06取自Q2 2026版 https://mktgdocs.cbre.com/2299/9ff68464-3bae-4f58-96ff-9af268010acb-303146365/Japan_Retail_MarketView_Q2_202.pdf (本文; 表參道空室率0.1%取自同期英文版); 2026年prime賃料未讀到 留空
+# 2022-09與2022-12僅為搜尋結果片段(二手) 未讀原PDF; 原版 Q3 2022 銀座24萬1500 Q4 2022 25萬700 (片段稱Q4上漲3.8%)
+month,ginza_avg_rent_jpy_per_tsubo,ginza_prime_rent_jpy_per_tsubo,ginza_vacancy_pct,omotesando_harajuku_avg_rent_jpy_per_tsubo,omotesando_harajuku_prime_rent_jpy_per_tsubo,omotesando_harajuku_vacancy_pct,read_mode
+2022-09,241500,,,,,,search_snippet
+2022-12,250700,,,,,,search_snippet
+2023-06,257600,400000,6.7,188800,350000,7.2,pdf_table
+2023-09,260600,400000,3.5,198800,350000,5.7,pdf_table
+2023-12,263000,400000,2.8,198800,350000,2.9,pdf_table
+2024-03,263000,400000,1.0,200800,350000,1.8,pdf_table
+2024-06,263000,400000,1.0,200800,350000,0.8,pdf_table
+2024-09,263000,400000,1.0,204800,350000,0.8,pdf_table
+2024-12,280000,450000,0.7,211800,380000,0.7,pdf_table
+2025-03,282000,450000,0.0,229800,400000,0.8,pdf_table
+2025-06,282000,450000,0.0,240800,400000,0.5,pdf_table
+2025-09,286000,450000,0.0,246000,400000,0.4,pdf_table
+2025-12,292000,450000,0.0,250000,400000,0.3,pdf_table
+2026-03,296000,,0.0,252000,,0.2,pdf_text
+2026-06,298000,,0.0,256000,,0.1,pdf_text
