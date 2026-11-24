@@ -20,7 +20,6 @@
 5. 模型：搜尋與抓取用 Sonnet 子代理；第一次濃縮（summary）用 Opus。不需要 Fable。子代理範圍要窄、給來源清單，避免同一份資料重複抓。
 6. 繁體中文，日文專有名詞括號保留原文。
 7. **檔案管理**：Evan 的所有房地產資料都在 Google Drive「房地產開發」底下管理。這個 repo 的工作目錄就放在 `房地產開發/world-economy-study/`（任務 0 建立），**只有這個資料夾裡的東西會公開**。動手前先 `git pull`，改完就 commit 並 push。若 git 出現 lock 檔或損毀等怪錯，刪掉資料夾重新 clone（先確認沒有未 push 的改動）。
-8. **repo 是公開的**：只放公開資料的整理。不要放 Evan 的個人財務、家族事業、合作對象或任何非公開資訊。
 
 ## 2. 任務（依優先順序；額度不夠時從後面砍）
 
@@ -33,9 +32,8 @@
    ```
    （若 Evan 本機其他地方已有舊 clone，之後改用這一份。）請提醒 Evan 在 Finder 對 `world-economy-study` 按右鍵，在 Google Drive 選單設成「離線可用」。
 2. 整併：把 `房地產開發/台灣房地產/大佬視角研究`（實際名稱以 Drive 為準）裡**有用的東西**搬進 `world-economy-study/tycoon-perspective/`：原始資料包（data/00–12）放 `tycoon-perspective/data/`，其他研究紀錄視內容放 `tycoon-perspective/notes/`。已經在 repo 裡的（report.md、charts、report.pdf）比對後以 repo 版為準，不重複放。
-3. 搬之前逐一檢查有沒有違反規則 8 的非公開資訊；有的話**不要搬**，留在原處。
-4. 寫 `tycoon-perspective/notes/MIGRATION.md`：搬了什麼、放哪裡、哪些沒搬及原因、哪些判斷為重複或無用。commit、push。
-5. **不要刪除舊資料夾**。請 Evan 看 MIGRATION.md 確認後，由他刪除（或他明確同意後由你刪）。
+3. 寫 `tycoon-perspective/notes/MIGRATION.md`：搬了什麼、放哪裡、哪些判斷為重複或無用而沒搬。commit、push。
+4. **不要刪除舊資料夾**。請 Evan 看 MIGRATION.md 確認後，由他刪除（或他明確同意後由你刪）。
 
 ### 任務 1｜第 3 部分：產品類別（最優先）→ `tokyo-case-study/data/m3/`
 
@@ -85,7 +83,7 @@
 ## 3. 交付
 
 - 每完成一個任務就 commit 並 push 到 `main`（不用推 gh-pages，主 session 發布時會同步）。commit 訊息寫任務編號。
-- 全部結束（或額度用完）時，在本資料夾寫 `HANDOFF-01-result.md`：每個任務的完成度、檔案清單、最大的 3 個缺口、用了多少子代理。
+- 全部結束（或額度用完）時，在 `handoff/` 寫 `HANDOFF-01-result.md`：每個任務的完成度、檔案清單、最大的 3 個缺口、用了多少子代理。
 - 然後告訴 Evan 回到 claude.ai 的對話，說「gst 做完了」。
 
 ## 4. Evan 的工作原則（摘要）
