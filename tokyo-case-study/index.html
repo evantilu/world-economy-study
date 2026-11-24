@@ -16,7 +16,7 @@
   --fact:#1d7a46;--fact-bg:#e6f4ec;--inf:#8a4b00;--inf-bg:#fff1dc;--rep:#5b4bb3;--rep-bg:#eeebfb;--quo:#6a6f76;--quo-bg:#eef0f2;
   --key:#1f5fbf;--key-bg:#eaf2fd;--warn:#8a4b00;--warn-bg:#fff4e2;--field:#1d7a46;--field-bg:#e9f6ee;
   --hl:#ffe58a;--fb:#b9d4ff;
-  --w:740px;--fs:16.5px;
+  --w:880px;--fs:16.5px;--pad:16px;
 }
 @media (prefers-color-scheme: dark){:root:where(:not([data-theme="light"])){
   --bg:#16181d;--fg:#e6e8eb;--muted:#9aa1ab;--faint:#898781;--line:#2c3038;--soft:#1f2228;--accent:#7fb0ff;
@@ -38,13 +38,13 @@ body{margin:0;background:var(--bg);color:var(--fg);font:var(--fs)/1.8 -apple-sys
 button{font:inherit;color:inherit}
 #progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:40}
 header{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.bar{max-width:var(--w);margin:0 auto;padding:9px 16px;display:flex;align-items:center;gap:8px;min-height:44px}
+.bar{max-width:var(--w);margin:0 auto;padding:9px var(--pad);display:flex;align-items:center;gap:8px;min-height:44px}
 .bar .t{flex:1;min-width:0;font-weight:600;font-size:14.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .bar .t small{color:var(--muted);font-weight:400;margin-left:6px}
 .btn{border:1px solid var(--line);background:var(--soft);border-radius:8px;padding:6px 11px;font-size:14px;cursor:pointer;text-decoration:none;color:var(--fg);line-height:1.3;white-space:nowrap}
 .btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
 .btn.ghost{background:transparent}
-main{max-width:var(--w);margin:0 auto;padding:4px 16px 140px}
+main{max-width:var(--w);margin:0 auto;padding:4px var(--pad) 140px}
 h1{font-size:1.55em;line-height:1.35;margin:.9em 0 .3em}
 h2{font-size:1.3em;line-height:1.4;margin:2.2em 0 .6em;padding-bottom:.35em;border-bottom:2px solid var(--line);display:flex;align-items:flex-start;gap:8px;flex-wrap:wrap}
 h3{font-size:1.08em;line-height:1.5;margin:1.8em 0 .5em;display:flex;align-items:flex-start;gap:8px;flex-wrap:wrap}
@@ -137,7 +137,7 @@ mark.sq{background:#ffe58a;color:#000;border-radius:3px}
 .sheet{position:fixed;inset:0;z-index:50;display:none}
 .sheet.open{display:block}
 .sheet .shade{position:absolute;inset:0;background:rgba(0,0,0,.4)}
-.sheet .pane{position:absolute;left:0;right:0;bottom:0;max-height:88vh;overflow-y:auto;background:var(--bg);border-radius:16px 16px 0 0;padding:14px 16px calc(18px + env(safe-area-inset-bottom));max-width:var(--w);margin:0 auto}
+.sheet .pane{position:absolute;left:0;right:0;bottom:0;max-height:88vh;overflow-y:auto;background:var(--bg);border-radius:16px 16px 0 0;padding:14px 16px calc(18px + env(safe-area-inset-bottom));max-width:760px;margin:0 auto}
 .sheet .grab{width:40px;height:4px;border-radius:2px;background:var(--line);margin:0 auto 10px}
 .sheet .hd{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-weight:600}
 .sheet .q{font-size:14px;color:var(--muted);background:var(--soft);border-left:3px solid var(--accent);padding:6px 10px;border-radius:0 8px 8px 0;margin:6px 0 10px;max-height:120px;overflow:auto}
@@ -166,6 +166,14 @@ textarea{width:100%;min-height:110px;border:1px solid var(--line);border-radius:
 .meta{color:var(--muted);font-size:13px}
 #toast{position:fixed;left:50%;transform:translateX(-50%);top:64px;z-index:70;background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:14px;display:none}
 @media (min-width:900px){:root{--fs:17px}}
+.vrow{display:flex;align-items:center;gap:10px;margin:6px 0 14px}
+.vrow .lab{width:3.2em;color:var(--muted);font-size:14px;flex:none}
+.vrow .val{min-width:4.2em;text-align:center;font-variant-numeric:tabular-nums;font-weight:600}
+.vrow .step{width:44px;height:40px;border:1px solid var(--line);background:var(--soft);border-radius:10px;font-size:17px;cursor:pointer;flex:none}
+.vrow input[type=range]{flex:1;accent-color:var(--accent);height:32px}
+.vchips{display:flex;flex-wrap:wrap;gap:6px;margin:-4px 0 14px 3.2em;padding-left:10px}
+.vchips button{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:4px 12px;font-size:13.5px;cursor:pointer}
+.vchips button.on{border-color:var(--accent);color:var(--accent)}
 @media print{header,#dock,#progress,#selbar,.fbtn,.ch-f .acts{display:none}details{border:0}main{padding-bottom:0}}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
@@ -186,7 +194,7 @@ textarea{width:100%;min-height:110px;border:1px solid var(--line);border-radius:
 <nav id="dock"><div class="in">
   <button id="dToc"><b>☰</b>目錄</button>
   <button id="dFb"><b>💬</b><span>回饋<span class="cnt" id="fbCount"></span></span></button>
-  <button id="dFont"><b>Aa</b>字級</button>
+  <button id="dView"><b>Aa</b>版面</button>
   <button id="dTheme"><b>◐</b>深淺</button>
   <button id="dTop"><b>↑</b>頂端</button>
 </div></nav>
@@ -223,6 +231,14 @@ textarea{width:100%;min-height:110px;border:1px solid var(--line);border-radius:
   <div id="tabHl" hidden><p class="hint">畫重點只存在這台裝置的瀏覽器裡，不會上傳。</p><ul class="fbl" id="hlList"></ul></div>
 </div></div>
 
+<div class="sheet" id="viewSheet"><div class="shade"></div><div class="pane">
+  <div class="grab"></div>
+  <div class="hd"><span>版面</span><button class="btn ghost" data-close>完成</button></div>
+  <div class="vrow"><span class="lab">字級</span><button class="step" id="vFsMinus" aria-label="縮小">A−</button><span class="val" id="vFsVal"></span><button class="step" id="vFsPlus" aria-label="放大">A+</button><button class="btn ghost" id="vFsReset">重設</button></div>
+  <div class="vrow"><span class="lab">寬度</span><input type="range" id="vW" aria-label="內容寬度"><span class="val" id="vWVal"></span></div>
+  <div class="vchips" id="vWChips"><button data-w="680">窄</button><button data-w="880">標準</button><button data-w="1200">寬</button><button data-w="full">全寬</button></div>
+  <p class="hint">設定只存在這台裝置。電腦上也可以用鍵盤 + / − 調字級。手機螢幕本身比設定窄時，選「全寬」會把左右留白縮到最小。</p>
+</div></div>
 <div id="lb"><img alt=""></div>
 <div id="toast"></div>
 
@@ -235,7 +251,10 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 
 /* ---------- theme & font (applied early) ---------- */
 (function(){const r=document.documentElement;const t=store.get('tk-theme',null);if(t)r.dataset.theme=t;
-  const f=store.get('tk-font',0);r.style.setProperty('--fs',[null,'18.5px','15.5px'][f]||'');})();
+  applyView();})();
+function applyView(){const r=document.documentElement,fs=store.get('tk-fs',null),w=store.get('tk-w',null);
+  r.style.setProperty('--fs',fs?fs+'px':'');
+  r.style.setProperty('--w',w==='full'?'100%':w?w+'px':'');r.style.setProperty('--pad',w==='full'?'10px':'');}
 
 /* ---------- charts ---------- */
 const Chart=(function(){
@@ -252,7 +271,7 @@ const Chart=(function(){
     return spec;}
   function render(fig,spec){
     const box=fig.querySelector('.ch-box');box.innerHTML='';
-    const W=Math.max(280,box.clientWidth),narrow=W<480,H=spec.height||(narrow?230:290);
+    const W=Math.max(280,box.clientWidth),narrow=W<480,H=spec.height||(narrow?230:Math.round(Math.min(400,Math.max(290,W*0.3))));
     const n=spec.x.length,ser=spec.series,multi=ser.length>1,endLab=multi&&ser.length<=4&&!narrow&&spec.type==='line';
     const vals=ser.flatMap(s=>s.data).filter(v=>v!=null&&!isNaN(v));
     let lo=Math.min(...vals),hi=Math.max(...vals);if(spec.type==='bar'||spec.zero!==false&&lo>0&&spec.yMin==null&&spec.type!=='line'){lo=Math.min(0,lo)}
@@ -485,7 +504,22 @@ $$('.sheet').forEach(s=>{s.querySelector('.shade').onclick=()=>Sheets.close(s);$
   $('#fbGeneral').onclick=()=>Feedback.open({sec:null});
   $('#editLink').href=`https://github.com/${REPO}/edit/main/${MD_PATH}`;
   $$('#listSheet .tabs button').forEach(b=>b.onclick=()=>{$$('#listSheet .tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');$('#tabFb').hidden=b.dataset.tab!=='fb';$('#tabHl').hidden=b.dataset.tab!=='hl';});
-  $('#dFont').onclick=()=>{const f=(store.get('tk-font',0)+1)%3;store.set('tk-font',f);document.documentElement.style.setProperty('--fs',[null,'18.5px','15.5px'][f]||'');$$('figure.chart').forEach(x=>x._rerender&&x._rerender());toast(['標準字級','大字級','小字級'][f]);};
+  // view settings: font size (px, 12–28) and content width (560–1600 px or full)
+  const FS_MIN=12,FS_MAX=28,W_MIN=560,W_MAX=1600,W_STEP=40;
+  const curFs=()=>store.get('tk-fs',null)||parseFloat(getComputedStyle(document.body).fontSize);
+  const curW=()=>{const w=store.get('tk-w',null);return w==='full'?'full':w||parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--w'))||880;};
+  const sv=$('#vW');sv.min=W_MIN;sv.max=W_MAX+W_STEP;sv.step=W_STEP;
+  function paintView(){const fs=curFs(),w=curW();$('#vFsVal').textContent=Math.round(fs)+' px';
+    sv.value=w==='full'?W_MAX+W_STEP:w;$('#vWVal').textContent=w==='full'?'全寬':w+' px';
+    $$('#vWChips button').forEach(b=>b.classList.toggle('on',String(b.dataset.w)===String(w)));}
+  function setFs(v){v=Math.max(FS_MIN,Math.min(FS_MAX,Math.round(v)));store.set('tk-fs',v);applyView();paintView();}
+  function setW(v){store.set('tk-w',v);applyView();paintView();}
+  $('#vFsMinus').onclick=()=>setFs(curFs()-1);$('#vFsPlus').onclick=()=>setFs(curFs()+1);
+  $('#vFsReset').onclick=()=>{store.set('tk-fs',null);applyView();paintView();};
+  sv.oninput=()=>setW(+sv.value>W_MAX?'full':+sv.value);
+  $$('#vWChips button').forEach(b=>b.onclick=()=>setW(b.dataset.w==='full'?'full':+b.dataset.w));
+  $('#dView').onclick=()=>{paintView();Sheets.open($('#viewSheet'));};
+  document.addEventListener('keydown',e=>{if(e.target.matches('input,textarea'))return;if(e.key==='+'||e.key==='=')setFs(curFs()+1);else if(e.key==='-')setFs(curFs()-1);});
   $('#dTheme').onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;r.dataset.theme=dark?'light':'dark';store.set('tk-theme',r.dataset.theme);$$('figure.chart').forEach(x=>x._rerender&&x._rerender());};
   $('#dTop').onclick=()=>scrollTo({top:0,behavior:'smooth'});
 
