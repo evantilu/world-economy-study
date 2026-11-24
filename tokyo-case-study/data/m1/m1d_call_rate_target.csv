@@ -1,0 +1,45 @@
+# 日本銀行 金融市場調節方針(無担保コールレート<オーバーナイト物>の誘導目標 及び量的/金利操作の枠組み) 変更一覧. date=決定会合日(1995年分は日銀発表日). 値は各決定文の原文表現を要約; 数値は決定文で読んだもの.
+# 1998-09-09以前は数値目標なし(公定歩合基準の定性方針); 1996-1997年は日銀公表一覧(state_1996/1997)に決定文が無く空白; 2001-03-19~2006-03-09は無担保コール目標なし(操作目標=当座預金残高). 2013-04-04~2024-03-19は操作目標がMBまたは長短金利操作(コールの数値目標なし). 変更のない会合は省略(決定文は同一ディレクトリの一覧で確認可).
+# 一覧: https://www.boj.or.jp/mopo/mpmdeci/state_all/index.htm
+date,target_or_guideline,framework,source_url,read_mode
+1995-03-31,数値目標なし: 現在の公定歩合の水準と整合的な範囲内で短期市場金利の低下を促す,公定歩合の水準と整合的な範囲での金融調節方針(無担保コールの数値目標は未公表),https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k950331.pdf,PDFはスキャン画像→画像で読んだ
+1995-07-07,数値目標なし: 市場金利を平均的にみて現行公定歩合をある程度下回って推移させる,同上 市場金利誘導(公定歩合1.0%),https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k950707.pdf,PDFはスキャン画像→画像で読んだ
+1995-09-08,数値目標なし: 公定歩合を1.0%から0.5%へ引下げ; 短期市場金利は平均的にみて新公定歩合水準をやや下回って推移,同上 公定歩合0.5%,https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k950908.pdf,PDFはスキャン画像→画像で読んだ
+1998-04-09,無担保コールレート(オーバーナイト物)を平均的にみて公定歩合水準(0.5%)をやや下回って推移するよう促す(議事要旨記載の既存方針),新日銀法(1998-04-01施行)下の金融政策決定会合 初期,https://www.boj.or.jp/mopo/mpmsche_minu/minu_1998/g980409.htm,議事要旨HTMLを読んだ; 方針の採択日はこの文書では不明; 1996-97年分の決定文は公表一覧に無し
+1998-09-09,無担保コールレート(オーバーナイト物)を平均的にみて0.25%前後,数値目標の明示(公定歩合から切り離し),https://www.boj.or.jp/mopo/mpmdeci/mpr_1998/k980909c.htm,決定文HTMLを読んだ
+1999-02-12,無担保コールレートをできるだけ低めに推移(当初0.15%前後を目指し徐々に一層低下),ゼロ金利政策,https://www.boj.or.jp/mopo/mpmdeci/mpr_1999/k990212c.htm,決定文HTMLを読んだ
+2000-08-11,無担保コールレートを平均的にみて0.25%前後,ゼロ金利政策解除,https://www.boj.or.jp/mopo/mpmdeci/mpr_2000/k000811.htm,決定文HTMLを読んだ
+2001-02-28,無担保コールレートを平均的にみて0.15%前後,利下げ(公定歩合も引下げ),https://www.boj.or.jp/mopo/mpmdeci/mpr_2001/k010228a.htm,決定文HTMLを読んだ
+2001-03-19,主たる操作目標を無担保コールレートから日銀当座預金残高に変更; 残高5兆円程度(従来4兆円強); コールレートは通常ゼロ%近辺と予想,量的緩和政策 開始(CPI前年比が安定的にゼロ%以上となるまで継続),https://www.boj.or.jp/mopo/mpmdeci/mpr_2001/k010319a.htm,決定文HTMLを読んだ
+2001-08-14,日銀当座預金残高6兆円程度,量的緩和政策,https://www.boj.or.jp/mopo/mpmdeci/mpr_2001/k010814.htm,決定文HTMLを読んだ
+2001-09-18,日銀当座預金残高6兆円を上回ることを目標,量的緩和政策,https://www.boj.or.jp/mopo/mpmdeci/mpr_2001/k010918.htm,決定文HTMLを読んだ
+2001-12-19,日銀当座預金残高10~15兆円程度,量的緩和政策,https://www.boj.or.jp/mopo/mpmdeci/mpr_2001/k011219a.htm,決定文HTMLを読んだ
+2002-10-30,日銀当座預金残高15~20兆円程度,量的緩和政策,https://www.boj.or.jp/mopo/mpmdeci/mpr_2002/k021030.htm,決定文HTMLを読んだ
+2003-03-25,日銀当座預金残高 3月31日まで15~20兆円程度; 4月1日以後17~22兆円程度(日本郵政公社発足に伴う),量的緩和政策,https://www.boj.or.jp/mopo/mpmdeci/mpr_2003/k030325.htm,決定文HTMLを読んだ
+2003-04-30,日銀当座預金残高22~27兆円程度,量的緩和政策,https://www.boj.or.jp/mopo/mpmdeci/mpr_2003/k030430.htm,決定文HTMLを読んだ
+2003-05-20,日銀当座預金残高27~30兆円程度,量的緩和政策,https://www.boj.or.jp/mopo/mpmdeci/mpr_2003/k030520.htm,決定文HTMLを読んだ
+2003-10-10,日銀当座預金残高27~32兆円程度(目標上限引上げ),量的緩和政策,https://www.boj.or.jp/mopo/mpmdeci/mpr_2003/k031010.htm,決定文HTMLを読んだ
+2004-01-20,日銀当座預金残高30~35兆円程度,量的緩和政策(最終水準),https://www.boj.or.jp/mopo/mpmdeci/mpr_2004/k040120.htm,決定文HTMLを読んだ
+2006-03-09,操作目標を日銀当座預金残高から無担保コールレートに戻す; 概ねゼロ%で推移,量的緩和政策 解除,https://www.boj.or.jp/mopo/mpmdeci/mpr_2006/k060309.htm,決定文HTMLを読んだ
+2006-07-14,無担保コールレートを0.25%前後,ゼロ金利解除(利上げ),https://www.boj.or.jp/mopo/mpmdeci/mpr_2006/k060714.pdf,決定文PDFを読んだ
+2007-02-21,無担保コールレートを0.5%前後,利上げ,https://www.boj.or.jp/mopo/mpmdeci/mpr_2007/k070221.pdf,決定文PDFを読んだ
+2008-10-31,無担保コールレートの誘導目標を0.2%引下げ0.3%前後,GFC対応の利下げ,https://www.boj.or.jp/mopo/mpmdeci/mpr_2008/k081031.pdf,決定文PDFを読んだ
+2008-12-19,無担保コールレートの誘導目標を0.2%引下げ0.1%前後,GFC対応の利下げ,https://www.boj.or.jp/mopo/mpmdeci/mpr_2008/k081219.pdf,決定文PDFを読んだ
+2010-10-05,無担保コールレートを0~0.1%程度,包括的な金融緩和政策(資産買入等の基金創設),https://www.boj.or.jp/mopo/mpmdeci/mpr_2010/k101005.pdf,決定文PDFを読んだ
+2013-04-04,操作目標を無担保コールレートからマネタリーベースに変更; 年間約60~70兆円増加ペース,量的・質的金融緩和(QQE),https://www.boj.or.jp/mopo/mpmdeci/mpr_2013/k130404a.pdf,決定文PDFを読んだ
+2014-10-31,マネタリーベース年間約80兆円増加ペース(約10~20兆円追加; 賛成5反対4),QQE拡大,https://www.boj.or.jp/mopo/mpmdeci/mpr_2014/k141031a.pdf,決定文PDFを読んだ
+2016-01-29,日銀当座預金の政策金利残高に▲0.1%のマイナス金利を適用(賛成5反対4); マネタリーベース80兆円ペースは維持,マイナス金利付きQQE,https://www.boj.or.jp/mopo/mpmdeci/mpr_2016/k160129a.pdf,決定文PDFを読んだ
+2016-09-21,短期政策金利▲0.1%; 10年物国債金利がゼロ%程度で推移するよう長期国債買入れ; マネタリーベース目標から金利操作へ,長短金利操作付きQQE(YCC),https://www.boj.or.jp/mopo/mpmdeci/mpr_2016/k160921a.pdf,決定文PDFを読んだ
+2018-07-31,政策金利フォワードガイダンス導入(当分の間現在のきわめて低い長短金利水準を維持); 長期金利は上下にある程度変動しうる,YCCの柔軟化,https://www.boj.or.jp/mopo/mpmdeci/state_2018/k180731a.htm,決定文HTMLを読んだ
+2020-04-27,10年物国債金利ゼロ%程度で推移するよう上限を設けず必要な金額の長期国債を買入れ; CP社債等の買入枠を合計約20兆円残高に拡大,YCC 新型感染症対応で金融緩和を強化,https://www.boj.or.jp/mopo/mpmdeci/state_2020/k200427a.htm,決定文HTMLを読んだ
+2021-03-19,長期金利の変動幅を±0.25%程度と明確化,YCC,https://www.boj.or.jp/mopo/mpmdeci/state_2021/k210319a.htm,決定文HTMLを読んだ
+2022-12-20,長期金利の変動幅を±0.25%程度から±0.5%程度に拡大,YCC,https://www.boj.or.jp/mopo/mpmdeci/state_2022/k221220a.htm,決定文HTMLを読んだ
+2023-07-28,長期金利の変動幅は±0.5%程度を目途とし1.0%で指値オペ(賛成8反対1),YCCの柔軟化,https://www.boj.or.jp/mopo/mpmdeci/state_2023/k230728a.htm,決定文HTMLを読んだ
+2023-10-31,長期金利の上限の目途を1.0%とし指値オペを機動的運営に(賛成8反対1),YCCの柔軟化,https://www.boj.or.jp/mopo/mpmdeci/state_2023/k231031a.htm,決定文HTMLを読んだ
+2024-03-19,無担保コールレートを0~0.1%程度; 政策金利を無担保コールレートとする; YCCとマイナス金利を終了,金融政策の枠組みの見直し(QQE終了),https://www.boj.or.jp/mopo/mpmdeci/state_2024/k240319a.htm,決定文HTMLを読んだ
+2024-07-31,無担保コールレートを0.25%程度,利上げ,https://www.boj.or.jp/mopo/mpmdeci/state_2024/k240731a.htm,決定文HTMLを読んだ
+2025-01-24,無担保コールレートを0.5%程度,利上げ,https://www.boj.or.jp/mopo/mpmdeci/state_2025/k250124a.htm,決定文HTMLを読んだ
+2025-12-19,無担保コールレートを0.75%程度,利上げ,https://www.boj.or.jp/mopo/mpmdeci/state_2025/k251219a.htm,決定文HTMLを読んだ
+2026-06-16,無担保コールレートを1.0%程度,利上げ,https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k260616a.pdf,決定文PDFを読んだ
+2026-09-18,無担保コールレートを1.25%程度,利上げ,https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k260918a.pdf,決定文PDFを読んだ
+2026-10-30,無担保コールレートを1.25%程度で維持(高田委員の1.5%程度案は反対多数で否決),現状維持,https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf,決定文PDFを読んだ
