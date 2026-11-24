@@ -7,4 +7,4 @@
 | 大佬視角報告 | [evantilu.github.io/world-economy-study/tycoon-perspective/](https://evantilu.github.io/world-economy-study/tycoon-perspective/) | `tycoon-perspective/report.md`（網頁回饋 = 標題以 `[大佬]` 開頭的 Issue） |
 | 東京房地產 case study | [evantilu.github.io/world-economy-study/tokyo-case-study/](https://evantilu.github.io/world-economy-study/tokyo-case-study/) | `tokyo-case-study/report.md`（網頁回饋 = 標題以 `[東京]` 開頭的 Issue） |
 
-原始資料包與研究說明在 Google Drive「房地產開發/台灣房地產/大佬視角研究/」。
+大佬視角的原始資料包在 `tycoon-perspective/data/`，研究紀錄與整併說明在 `tycoon-perspective/notes/`。
