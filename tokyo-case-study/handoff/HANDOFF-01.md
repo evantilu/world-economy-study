@@ -1,4 +1,4 @@
-# 交接單 01：東京房地產 case study 第 2–5 部分資料蒐集 ＋ 大佬報告互動圖
+# 交接單 01：東京房地產 case study 第 2–5 部分資料蒐集 ＋ 大佬報告資料搬家與互動圖
 
 給：Claude Code（Evan 的 Max 帳號，額度即將到期，請把握）
 來自：claude.ai 專案「台灣房地產」主 session（Pro 帳號，額度有限）
@@ -19,6 +19,8 @@
 4. 每個模組另寫一份 `m<模組>_summary.md`（繁中，1–2 頁）：最重要的 10–15 個數字與事實、彼此矛盾的地方、缺口。這是主 session 主要會讀的檔，請寫得精準。
 5. 模型：搜尋與抓取用 Sonnet 子代理；第一次濃縮（summary）用 Opus。不需要 Fable。子代理範圍要窄、給來源清單，避免同一份資料重複抓。
 6. 繁體中文，日文專有名詞括號保留原文。
+7. **一個專案只放一個地方**：網頁專案（東京、大佬）以這個 repo 為唯一來源，資料不要再另存一份到 Google Drive。repo 不要放在 Google Drive 的同步資料夾裡（同步 .git 容易衝突），請 clone 到一般資料夾。
+8. **repo 是公開的**：只放公開資料的整理。不要放 Evan 的個人財務、家族事業、合作對象或任何非公開資訊。
 
 ## 2. 任務（依優先順序；額度不夠時從後面砍）
 
@@ -55,11 +57,15 @@
 
 日本（東京）、台灣（台北）、中國（北京／上海）同口徑或可比的指標，標明口徑差異：政策利率、房貸利率、房價所得比、租金收益率、空屋或低度使用住宅、自有率、家戶負債占 GDP、高齡化時程（65 歲以上達 14%、21% 的年份）、總生育率、持有稅負、都更制度（台灣都更門檻與平均期間 vs 日本再開發）。若能從 Evan 的 Google Drive「房地產開發」資料夾取得中國 case study 的數據，優先沿用。
 
-### 任務 5｜大佬報告：圖表改互動 → `tycoon-perspective/`
+### 任務 5｜大佬報告：資料包搬進 repo、圖表改互動 → `tycoon-perspective/`
+
+**5a 搬家（先做）**：大佬研究的原始資料包（data/00–12、README 等）目前在 Evan 的 Google Drive。請找到後搬進 `tycoon-perspective/data/`，保留原檔名與結構；搬之前檢查內容，確認沒有違反規則 8 的非公開資訊（有的話留在 Drive，並在結果報告裡列出）。搬完在 Drive 原資料夾放一個 `已搬到GitHub.md`，寫明新位置（https://github.com/evantilu/world-economy-study/tree/main/tycoon-perspective/data），原檔先不要刪，由 Evan 確認後自己刪。
+
+**5b 圖表改互動**：
 
 `tycoon-perspective/report.md` 現在用 9 張 PNG（`charts/`）。網頁已改用共用版型（`../assets/report.js`），支援 ```chart 互動圖（格式見 `tokyo-case-study/report.md` 開頭註解，範例在第 1 部分）。
 
-- 找到每張圖的原始數據（Evan Drive 裡的大佬研究資料包 data/00–12，或重新取得），轉成 CSV 放 `tycoon-perspective/data/`，在 report.md 把 `![](charts/xx.png)` 換成 ```chart 區塊。
+- 找到每張圖的原始數據（5a 搬進來的資料包，或重新取得），轉成 CSV 放 `tycoon-perspective/data/`，在 report.md 把 `![](charts/xx.png)` 換成 ```chart 區塊。
 - 規則：數據必須和原圖一致；雙軸或多面板圖要拆成幾張單軸圖（不畫雙軸）；找不到原始數據的圖保留 PNG，不要硬做。
 - 這是唯一可以改 report.md 的任務，只動圖片那幾行。
 
