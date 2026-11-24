@@ -1,0 +1,19 @@
+# 口徑警告: 各城市統計定義不同 (東京/日本=着工 gross 不扣拆除; NYC=完成 gross (permits另列); London=net additional dwellings 會計年度; SF=net gain 完成 扣拆除與改建). 不可直接當同口徑排名使用.
+# Tokyo-to 着工: 東京都 住宅着工統計 令和7年12月 (2026-02-06公布) https://www.metro.tokyo.lg.jp/information/press/2026/02/2026020601 (2025=122130) ; 令和6年12月 (2025-02-07) https://www.metro.tokyo.lg.jp/information/press/2025/02/2025020710 (2024=123091). 讀到原頁.
+# Tokyo-to 人口: 東京都の人口(推計) 令和8年10月1日 14288867 (以令和7年國勢調査確報為基準) https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102904 ; 2024/2025年當年人口未取得 故以此值當分母 (略高估人口 故per_1000略低估).
+# Japan 着工: m1c_housing_starts.csv (國交省 住宅着工統計 經 the-shashi.com/jawic) ; 人口 令和7年國勢調査速報 123049.524千人 (m1c_population_japan.csv). 2024人口未取得.
+# NYC: 完成 33974 (2024) 來源=NYC DCP Housing Production Snapshot 之報導 (brownstoner/qns 等 僅搜尋摘要 未讀DCP原文) ; permits 15626 (搜尋摘要 DCP) ; 人口 8478072 = Census Vintage 2024 (2024-07-01) https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html (搜尋摘要).
+# London: net additional dwellings 2024-25 = 32680 (gov.uk Housing supply: net additional dwellings England 2024-25 Table 4; 2025-11-20公布 讀到原頁摘要) https://www.gov.uk/government/statistics/housing-supply-net-additional-dwellings-england-2024-to-2025/housing-supply-net-additional-dwellings-england-2024-to-2025 ; London人口 未取得(ONS mid-2024 頁未列總數) 故留空.
+# SF: net gain 2024=1597 2025=2669 ; 2024 housing stock 420289 ; 來源 SF Planning Housing Inventory 2024/2025 PDF (讀到原文) https://sfplanning.org/sites/default/files/resources/2026-04/2025_Housing_Inventory.pdf ; SF人口未取得.
+# Tokyo-to 住宅總數 8201千戶 = 住宅土地統計調查2023 (m1c_demography.md 轉引; 來源為沖繩縣頁 未讀統計局原表).
+# 欄位內不含逗號. 缺值留空.
+city,year,metric,units,population,population_date,units_per_1000_pop,stock_units,units_per_100_stock,note
+Tokyo-to,2025,新設住宅着工戸數 (暦年),122130,14288867,2026-10-01,8.55,,,持家12882 貸家67356 分譲41209; 年增-0.8%
+Tokyo-to,2024,新設住宅着工戸數 (暦年),123091,14288867,2026-10-01,8.61,8201000,1.50,stock=2023住宅土地統計總住宅數 非2024值
+Japan,2025,新設住宅着工戸數 (暦年),740667,123049524,2025-10-01,6.02,,,
+Japan,2024,新設住宅着工戸數 (暦年),792195,,,,,,2024值各來源略異 (792195/792098/792070)
+New York City,2024,新築完成戸數 (completions),33974,8478072,2024-07-01,4.01,,,DCP報導之最高紀錄 約1965以來; 未讀DCP原文
+New York City,2024,許可戸數 (new units permitted),15626,8478072,2024-07-01,1.84,,,permits非着工; 搜尋摘要
+London,2024-25,net additional dwellings (FY),32680,,,,,,會計年度 2024-04至2025-03; 含轉用與淨拆除調整
+San Francisco,2024,net gain 完成,1597,,,,420289,0.38,Housing Inventory 2024
+San Francisco,2025,net gain 完成,2669,,,,,,10年平均3622
