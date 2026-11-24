@@ -433,11 +433,11 @@
 **結論。** 東京都心 5 區辦公空置率由 2022 年的 6.38% 降到 1.85%，租金創新高；首都圈新建公寓均價 10 年漲 66%，但均價受都心超高價物件拉高，中位數只漲 46%〔事實〕。
 
 ```chart
-{"type": "line", "title": "東京都心 5 區辦公空置率由 6.4% 降到 1.85%", "subtitle": "三鬼商事，各年 12 月號與 2026 年 9 月，%", "csv": "data/c06_tokyo_office.csv", "xcol": "period", "ycols": ["vacancy_pct"], "names": ["空置率"], "unit": "%", "dec": 2, "yMin": 0, "notes": {"2022": "實為 2022 年 11 月數字（12 月號報告）"}, "xLabel": "期間", "source": "三鬼商事「最新オフィスビル市況」（東京都心 5 區，基準階 10 坪以上）"}
+{"type": "line", "title": "東京都心 5 區辦公空置率由 6.4% 降到 1.85%", "subtitle": "三鬼商事，各年 11 月與 2026 年 9 月，%", "csv": "data/c06_tokyo_office.csv", "xcol": "period", "ycols": ["vacancy_pct"], "names": ["空置率"], "unit": "%", "dec": 2, "yMin": 0, "xLabel": "期間", "source": "三鬼商事「最新オフィスビル市況」（東京都心 5 區，基準階 10 坪以上）"}
 ```
 
 ```chart
-{"type": "line", "title": "平均募集租金創新高", "subtitle": "三鬼商事，日圓/坪", "csv": "data/c06_tokyo_office.csv", "xcol": "period", "ycols": ["rent_yen_tsubo"], "names": ["平均募集租金"], "unit": "日圓/坪", "dec": 0, "yMin": 0, "xLabel": "期間", "source": "三鬼商事「最新オフィスビル市況」"}
+{"type": "line", "title": "平均募集租金創新高", "subtitle": "三鬼商事，各年 11 月與 2026 年 9 月，日圓/坪", "csv": "data/c06_tokyo_office.csv", "xcol": "period", "ycols": ["rent_yen_tsubo"], "names": ["平均募集租金"], "unit": "日圓/坪", "dec": 0, "yMin": 0, "xLabel": "期間", "source": "三鬼商事「最新オフィスビル市況」"}
 ```
 
 ```chart

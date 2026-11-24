@@ -361,6 +361,8 @@ Source: Miki Shoji monthly "Latest Office Building Market" PDFs, https://e-miki.
 
 [R2 更正：月份] 三鬼商事 21_202212.pdf 所載 6.38% 為 2022 年 11 月數字（12 月號報告），表中標「Dec 2022」有誤；數值不變。其他年份是否同樣為 11 月數字未逐一核。
 
+[2026-11-24 更正：月份，全表] 三鬼月報檔名 21_YYYYMM 的 YYYYMM 為發行月、內容為前月末資料。本表所有「Dec 20XX」列實為該年 11 月值（2019–2025 逐點與 tokyo-case-study/data/m3/m3_office_vacancy_monthly.csv 核對一致），Sep 2026 列正確。真正的 12 月值見該 CSV（例：2022-12 為 6.47%、2025-12 為 2.22%）。
+
 - Monthly Sep-2025 to Sep-2026 vacancy (%): 2.68, 2.59, 2.44, 2.22, 2.15, 2.20, 2.22, 2.20, 2.07, 1.99, 1.95, 1.87, 1.85. Rent (¥/tsubo): 21,092, 21,261, 21,308, 21,409, 21,648, 21,969, 22,302, 22,454, 22,845, 22,993, 23,287, 23,647, 23,985 (source: 21_202610.pdf).
 - Note: the Sep-2026 rent (¥23,985) is above Mitsui's cited peak of ¥23,014 in July 2020 (Miki, shown in Mitsui deck) [P].
 
