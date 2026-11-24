@@ -41,7 +41,13 @@
 
 背景先講清楚。2026 年 2 月 28 日美以空襲伊朗，荷莫茲海峽受阻，布蘭特現貨 4 月 7 日到 138 美元〔事實〕。Fed 在 9 月 16 日由降息轉為升息到 3.75–4.00%，30 年期美債 10 月 7 日收 5.67%，是 2002 年以來最高〔事實〕。
 
-![伊朗戰事把油價推上138美元，30年期美債升到5.67%](charts/01_macro_30y_brent.png)
+```chart
+{"type": "line", "title": "30 年期美債殖利率 10 月升到 5.67%，2002 年以來最高", "subtitle": "美國 30 年期公債固定期限殖利率，每日", "csv": "data/c01_ust30y_daily.csv", "xcol": "date", "ycols": ["ust30y_pct"], "names": ["30 年期殖利率"], "unit": "%", "dec": 2, "events": [{"x": "2026-03-02", "label": "2/28 美以空襲伊朗"}, {"x": "2026-09-16", "label": "9/16 Fed 升息"}], "xLabel": "日期", "source": "美國財政部 Daily Treasury Par Yield Curve 30 Yr（即 Fed H.15／FRED DGS30）；2025-01-02 至 2026-11-05"}
+```
+
+```chart
+{"type": "line", "title": "伊朗戰事把布蘭特現貨推上 138 美元（4/7）", "subtitle": "布蘭特現貨 Dated Brent，美元/桶，每日", "csv": "data/c01_brent_daily.csv", "xcol": "date", "ycols": ["brent_usd"], "names": ["布蘭特現貨"], "unit": "美元", "dec": 2, "yMin": 0, "events": [{"x": "2026-03-02", "label": "2/28 美以空襲伊朗"}, {"x": "2026-09-16", "label": "9/16 Fed 升息"}], "xLabel": "日期", "source": "EIA RBRTEd（即 FRED DCOILBRENTEU）；2025-01-02 至 2026-11-03。現貨價與 ICE 期貨價常差 10–20 美元"}
+```
 
 ### 結論一：最強的共識是「長端利率結構性偏高，債券不再可靠地避險」
 
@@ -63,7 +69,13 @@
 2. 〔事實〕行動反向。GIC 美洲曝險 44%→53%；淡馬錫美洲 24%→26%，CIO 說還會再提高〔轉述〕；Druckenmiller 1 月說看空美元，9 月說無意空美元，並表示自年初起已小幅空歐元、英鎊〔轉述〕；波克夏 2026 年新增的大筆資金（Alphabet、Taylor Morrison、OxyChem）主要在美國，唯一的非美新增是日本東京海上 2.49%（約 18 億美元）。
 3. 〔事實〕GIC 自己點出原因：「few markets offer comparable depth and liquidity as the US」。Marks 也說去美元化可以做，「But I don't think it should be done on a great scale」。
 
-![GIC 兩年把股票由46%拉到56%、美洲由44%拉到53%](charts/09_gic_mix.png)
+```chart
+{"type": "line", "title": "GIC 兩年把股票由 46% 拉到 56%，固定收益由 32% 降到 22%", "subtitle": "資產類別占投資組合 %，3 月底", "csv": "data/c09_gic_mix.csv", "xcol": "period", "ycols": ["equities", "fixed_income", "real_assets"], "names": ["股票", "固定收益", "實質資產"], "unit": "%", "dec": 0, "yMin": 0, "xLabel": "期末", "source": "GIC Report 2025/26 表 2；2024/03 取自 Mingtiandi、top1000funds 轉述（二手），固定收益 32% 由增減幅推算"}
+```
+
+```chart
+{"type": "line", "title": "GIC 美洲曝險由 44% 拉到 53%", "subtitle": "地區曝險 %，3 月底", "csv": "data/c09_gic_mix.csv", "xcol": "period", "ycols": ["americas", "apac", "emea", "global"], "names": ["美洲", "亞太", "歐洲中東非洲", "全球／未分區"], "unit": "%", "dec": 0, "yMin": 0, "xLabel": "期末", "source": "GIC Report 2025/26 表 3；2024/03 取自 Mingtiandi 轉述（二手），全球 8% 由合計 100 推算。GIC 不按地區配置、只監測曝險；年報未拆出美國、日本、中國或台灣"}
+```
 
 **解讀〔推論〕。** 這不是虛偽，是「沒有替代品」。他們把美國財政視為慢性病，用持有黃金、短天期、非美資產做邊際避險，主體仍留在美國。這和李嘉誠「不押方向、分散地域」的做法同一路數。
 
@@ -105,7 +117,17 @@
 4. 〔事實〕Gray 的說法最能概括：「while higher rates are a headwind to the sector's recovery, strengthening fundamentals are a tailwind」。新供給在多數類別降到十多年低點，建造成本又被 AI 基建排擠。
 5. 〔推論〕結論是「供給面利多、資金成本利空」：只有能靠租金成長或長約撐住現金流的資產，才擋得住高利率。
 
-![Blackstone：信貸增46%、不動產縮9%；資料中心占BREIT升到30%](charts/03_blackstone_shift.png)
+```chart
+{"type": "line", "title": "Blackstone：信貸與保險兩年增 46%，不動產縮 9%", "subtitle": "部門資產管理規模，十億美元", "csv": "data/c03_blackstone.csv", "xcol": "quarter", "ycols": ["credit_insurance_bn", "real_estate_bn"], "names": ["信貸與保險", "不動產"], "unit": "十億美元", "dec": 1, "yMin": 0, "xLabel": "季", "source": "Blackstone 季度財報新聞稿（SEC 8-K Ex.99.1）"}
+```
+
+```chart
+{"type": "bar", "title": "BREIT 贖回潮到 2026 年才止住", "subtitle": "每季申購（含配息再投資）減贖回，十億美元", "csv": "data/c03_blackstone.csv", "xcol": "quarter", "ycols": ["breit_net_bn"], "names": ["BREIT 淨流量"], "unit": "十億美元", "dec": 1, "xLabel": "季", "source": "BREIT 10-Q／10-K MD&A「Capital and Financing Activity」；Q4 為全年減前三季推算，誤差約 ±1–2 億；2026Q2–Q3 未計 DST 計畫。Bisnow 所稱 2025 年淨流入 +10 億與 10-K（−26 億）矛盾，未採用"}
+```
+
+```chart
+{"type": "line", "title": "資料中心占 BREIT 不動產比重由 9% 升到 30%", "subtitle": "占不動產公允價值 %，季末", "csv": "data/c03_blackstone.csv", "xcol": "quarter", "ycols": ["dc_share_pct"], "names": ["資料中心占比"], "unit": "%", "dec": 0, "yMin": 0, "xLabel": "季", "source": "BREIT 10-Q／10-K"}
+```
 
 **反方。** 賣出不一定代表看壞。私募基金有存續期限，必須退出還錢給 LP；Brookfield 2025 年 3 月說，過去十年出售的約 900 筆不動產中，約 90% 以帳面價值或以上成交〔事實〕。Brookfield 的「asset values are set to rise substantially」指的是曼哈頓、倫敦 City、杜拜等自家核心市場〔事實〕，不是整體不動產。
 
@@ -130,7 +152,13 @@
 4. 〔事實〕在收手的：JPMorgan 2026 年第三季回購只有 10.6 億美元，前一年同期 83 億美元；Dimon 說「many asset prices, including bank stocks, are fully valued」。恒基因伊朗戰事把末期息砍 41.5%。
 5. 〔推論〕這與李嘉誠 1967 年的邏輯一致：先確保自己不會被迫賣，再等別人被迫賣。差別在各家判斷「時候到了沒」不同。
 
-![波克夏現金在2026年3月達3,735億美元高峰；2024年淨賣股1,341億](charts/02_berkshire_cash_net.png)
+```chart
+{"type": "bar", "title": "波克夏現金與國庫券在 2026 年 3 月達 3,735 億美元高峰", "subtitle": "季末，十億美元；公司 MD&A 口徑（扣除未交割國庫券應付款）", "csv": "data/c02_berkshire.csv", "xcol": "quarter", "ycols": ["cash_bn"], "names": ["現金＋國庫券"], "unit": "十億美元", "dec": 1, "xLabel": "季", "source": "波克夏 10-Q／10-K（SEC EDGAR；2026Q3 取自 berkshirehathaway.com）。若含鐵路／公用事業現金與未交割款，帳面合計 2026Q1 為 3,974 億、2026Q3 為 3,774 億"}
+```
+
+```chart
+{"type": "bar", "title": "2024 年淨賣股 1,341 億美元；2026 年第二季才出現 2023 年以來首次淨買，同時回購加速", "subtitle": "每季，十億美元；淨買賣＝股票買入減賣出", "csv": "data/c02_berkshire.csv", "xcol": "quarter", "ycols": ["net_equity_bn", "buyback_bn"], "names": ["股票淨買(+)／淨賣(−)", "庫藏股回購"], "unit": "十億美元", "dec": 1, "xLabel": "季", "source": "波克夏 10-Q／10-K 現金流量表（交割日口徑）；回購 2026Q2–Q3 為財報新聞稿交易日口徑"}
+```
 
 **反方。** Klarman 在 2026 年 6 月的訪談承認，過去持有 30% 以上現金「almost certainly made a mistake」〔轉述〕。囤現金的機會成本真實存在，長期等待也可能錯過整段漲幅。
 
@@ -234,7 +262,13 @@
 4. **人口老化相關資產被點名。** 依據：Klarman 最看好 assisted living，GIC 買英國醫院。台灣適用性需另查。
 5. **資產負債表決定誰能在谷底買。** 依據：香港信和（淨現金 551 億港元）、新地（負債降 28%）在買地，新世界陷入持續經營評估。
 
-![香港樓價2025年3月見底、2026年回升約10%](charts/04_hk_ccl_hibor.png)
+```chart
+{"type": "line", "title": "香港樓價 2025 年 3 月見底、2026 年回升約 10%，仍比 2021 年高點低 17%", "subtitle": "中原城市領先指數 CCL，週；指數軸未從 0 起算", "csv": "data/c04_hk_ccl_weekly.csv", "xcol": "week", "ycols": ["ccl"], "names": ["CCL"], "dec": 2, "yMin": 100, "xLabel": "調查週", "source": "中原地產 CCL 週指數（hk.centanet.com，調查週日期，約 5 天後公布）；2017-01-01 至 2026-11-01"}
+```
+
+```chart
+{"type": "line", "title": "HIBOR 已由 5% 以上降到約 2.6%", "subtitle": "1 個月 HIBOR 定盤，%，每日（自 2022 年起）", "csv": "data/c04_hk_hibor_1m_daily.csv", "xcol": "date", "ycols": ["hibor_1m_pct"], "names": ["1 個月 HIBOR"], "unit": "%", "dec": 2, "yMin": 0, "xLabel": "日期", "source": "HKMA API（daily-figures-interbank-liquidity，hibor_fixing_1m）；2022-01-03 至 2026-11-06"}
+```
 
 ### 4.2 大佬怎麼看台灣
 
@@ -348,7 +382,13 @@
 
 **結論。** 喜馬拉雅拼多多占 13F 22%，段永平 10%，兩人都在 2026 年第二季加碼；同期喜馬拉雅出清美國銀行；段永平的蘋果持股自 2024Q1 以來累計減少 58%（2026Q2 單季減 6%）〔事實〕。
 
-![李錄與段永平：都加碼拼多多，同時大幅減持美國銀行與蘋果](charts/08_lilu_duan_13f.png)
+```chart
+{"type": "line", "title": "李錄：拼多多加到 22%，美國銀行出清", "subtitle": "喜馬拉雅資本，占 13F 申報市值 %", "csv": "data/c08_himalaya_13f.csv", "xcol": "quarter", "ycols": ["alphabet", "bank_of_america", "pdd"], "names": ["Alphabet", "美國銀行", "拼多多"], "unit": "%", "dec": 1, "yMin": 0, "xLabel": "季", "source": "SEC EDGAR 13F-HR（喜馬拉雅 CIK 1709323）。13F 只含美國上市股票多頭與期權；權重變化混合價格與交易"}
+```
+
+```chart
+{"type": "line", "title": "段永平：蘋果由八成降到四成，拼多多加到 10%，台積電 2025Q4 高點 2.1% 後於 2026Q2 清倉", "subtitle": "H&H International，占 13F 申報市值 %", "csv": "data/c08_hh_13f.csv", "xcol": "quarter", "ycols": ["apple", "berkshire_b", "pdd", "tsmc_adr"], "names": ["蘋果", "波克夏 B", "拼多多", "台積電 ADR"], "unit": "%", "dec": 2, "yMin": 0, "xLabel": "季", "source": "SEC EDGAR 13F-HR（H&H International CIK 1759760）。不含港股（騰訊、泡泡瑪特）、A 股（茅台）、現金與賣權部位；股數變化見資料包 07 B2"}
+```
 
 **行動。**
 - 喜馬拉雅港股：比亞迪 2021 年 11 月因稀釋降到 4.97%，之後不需申報，現況未知，**不能說已出清**；郵儲銀行 2025 年 5 月降到 4.96%〔事實，港交所披露〕。
@@ -362,13 +402,17 @@
 
 **結論。** 長和中國大陸 EBITDA 由 2019 年 105 億港元降到 2025 年 29 億（underlying），占集團比重由 9.4% 降到 2.5%；歐洲維持約 55%〔事實，主 session 已核對年報 PDF〕。
 
-![長和 EBITDA 2019→2025：中國大陸由105億降到29億港元](charts/07_ckh_ebitda_region.png)
+```chart
+{"type": "bar", "title": "長和 EBITDA 2019→2025：中國大陸由 105 億降到 29 億港元，占集團比重由 9.4% 降到 2.5%；歐洲維持約 55%", "subtitle": "十億港元，IFRS16 前；2025 為 underlying", "csv": "data/c07_ckh_ebitda_region.csv", "xcol": "region", "ycols": ["y2019", "y2025"], "names": ["2019", "2025"], "unit": "十億港元", "dec": 1, "xLabel": "地區", "source": "長和年報「Analyses of Core Business Segments by Geographical Location」（2019、2025 年版）。占比分母為集團 EBITDA 總額（2019：1,120.68 億；2025 underlying：1,157.38 億）；圖中未列的 Finance & Investments and Others 約占 11%（2019）與 18%（2025）。2019 加拿大為 underlying，未計赫斯基減值"}
+```
 
 **行動。** 賣 UKPN（105 億英鎊）、VodafoneThree 49%（43 億英鎊）；港口交易 9–11 月公開查無進展，巴塞隆納分塊已撤件；屈臣氏上市延到 2027 年；長建 8 月啟動出售澳洲 EDL；9–11 月長和系沒有任何交易、股息或回購公告〔事實〕。
 
 **香港。** 2023–26 年政府住宅賣地，長實投標 12 次全未得標；Blue Coast 開價低於成本約 22%〔事實〕。
 
-![2023–2026香港政府住宅賣地：長實投標12次全未得標](charts/05_hk_land_tenders.png)
+```chart
+{"type": "bar", "title": "2023–2026 香港政府住宅賣地：長實投標 12 次全未得標，恒基 0/5，新世界沒有出現在投標名單", "subtitle": "2023-01 至 2026-10，20 次住宅地招標；次數含合資", "csv": "data/c05_hk_land_tenders.csv", "xcol": "group", "ycols": ["bids", "wins"], "names": ["投標次數", "得標次數"], "unit": "次", "dec": 0, "xLabel": "集團", "source": "地政總署賣地結果與 info.gov.hk 各標書結果新聞稿。20 次招標中 16 次成交（共 268.9 億港元）、4 次流標。不含港鐵、市建局項目；以子公司名義投標而母公司不明者未計入"}
+```
 
 **言論。** 李澤鉅 2024 年：「I am not going to bet against Hong Kong's ability to recover」；2026 年 8 月長建：「not succumb to any 'must-win' mentality」；10 月：長建處於「歷來最雄厚之財務狀況」〔事實／轉述〕。
 
@@ -388,7 +432,17 @@
 
 **結論。** 東京都心 5 區辦公空置率由 2022 年的 6.38% 降到 1.85%，租金創新高；首都圈新建公寓均價 10 年漲 66%，但均價受都心超高價物件拉高，中位數只漲 46%〔事實〕。
 
-![東京辦公空置率降到1.85%、首都圈新建公寓均價10年漲66%（中位數46%）](charts/06_tokyo_office_condo.png)
+```chart
+{"type": "line", "title": "東京都心 5 區辦公空置率由 6.4% 降到 1.85%", "subtitle": "三鬼商事，各年 12 月號與 2026 年 9 月，%", "csv": "data/c06_tokyo_office.csv", "xcol": "period", "ycols": ["vacancy_pct"], "names": ["空置率"], "unit": "%", "dec": 2, "yMin": 0, "notes": {"2022": "實為 2022 年 11 月數字（12 月號報告）"}, "xLabel": "期間", "source": "三鬼商事「最新オフィスビル市況」（東京都心 5 區，基準階 10 坪以上）"}
+```
+
+```chart
+{"type": "line", "title": "平均募集租金創新高", "subtitle": "三鬼商事，日圓/坪", "csv": "data/c06_tokyo_office.csv", "xcol": "period", "ycols": ["rent_yen_tsubo"], "names": ["平均募集租金"], "unit": "日圓/坪", "dec": 0, "yMin": 0, "xLabel": "期間", "source": "三鬼商事「最新オフィスビル市況」"}
+```
+
+```chart
+{"type": "bar", "title": "首都圈新建公寓均價 10 年漲 66%（中位數漲 46%）", "subtitle": "首都圈 1 都 3 縣，每戶，萬日圓", "csv": "data/c06_tokyo_condo.csv", "xcol": "year", "ycols": ["avg_man_yen", "median_man_yen"], "names": ["平均", "中位數"], "unit": "萬日圓", "dec": 0, "xLabel": "年", "source": "不動產經濟研究所 2026-02-12 新聞稿表 1。2023 年均價跳升 +28.8% 主要由都心超高價物件拉動，同年中位數僅 +11.5%"}
+```
 
 **行動。** 三井、三菱地所、住友 FY3/2026 純益都創新高。三家都在出售資產、減少交叉持股、回購自家股票；三井海外資產占 32%。住友會長股東會贊成率 76.72%（2025）→83.38%（2026），Elliott 施壓仍在〔事實〕。
 

@@ -1,0 +1,8 @@
+# 長和 EBITDA 依地區（十億港元；IFRS16 前；2025 為 underlying；2019 加拿大為 underlying 未計赫斯基減值）。
+# 來源：長和年報 Analyses of Core Business Segments by Geographical Location（doc.irasia.com 2019 與 2025 年版）。集團總額 2019 為 112.07、2025 underlying 為 115.74；未列 Finance & Investments and Others。資料包 08a。
+region,y2019,y2025
+歐洲,61.767,64.121
+亞洲澳洲及其他,21.576,23.574
+中國大陸,10.514,2.897
+香港,3.672,2.253
+加拿大,7.885,1.99
