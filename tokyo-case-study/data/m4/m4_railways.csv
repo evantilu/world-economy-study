@@ -1,0 +1,24 @@
+# m4_railways.csv: 鉄道3社 不動産事業セグメント; 単位=億円; 来源=各社IR(Tokyu Financial data FY2025_j.xlsx; Keio 決算短信/決算補足説明資料; Odakyu FinancialData2025_JPN.xlsx 及び 2026.2Q_PPT.pdf) 詳見 m4b_railways_subleasing.md
+# fy=会計年度開始年 (FY2025=2025-04~2026-03); 売上=セグメント売上 (含セグメント間); total_op=連結営業利益; re_share_pct=RE営業利益/連結営業利益 (各セグメント消去前; COVID年は>100%となる)
+# 各社の百万円表示を億円に換算; FY2026F=予想; 空欄=未取得
+company,fy,fy_end,re_revenue_oku_yen,re_op_income_oku_yen,total_op_income_oku_yen,re_share_pct,basis,note
+Tokyu_9005,FY2021,2022-03,2232.63,452.30,315.44,143.4,as_reported,segment 不動産; FY2021=Tokyu 2021年度=第153期; share>100 because total OP depressed by COVID
+Tokyu_9005,FY2022,2023-03,2204.20,288.44,446.03,64.7,as_reported,segment 不動産
+Tokyu_9005,FY2023,2024-03,2865.85,487.08,949.05,51.3,as_reported,segment 不動産; 販売業 large (investor-oriented sales)
+Tokyu_9005,FY2024,2025-03,2537.62,483.98,1034.85,46.8,as_reported,segment 不動産
+Tokyu_9005,FY2025,2026-03,2629.95,435.95,1031.93,42.2,as_reported,segment 不動産; actual
+Tokyu_9005,FY2026F,2027-03,,417,1000,41.7,forecast_derived,RE OP = FY2025 actual 435.95 + (販売+22 賃貸-41 管理0) = about 417 derived by us from Nov-2026 deck waterfall; total OP 1000 = company forecast 2026-11-04; RE revenue forecast not read
+Keio_9008,FY2021,2022-03,472,104,7,1485.7,old_def_pre2023,旧不動産業 (賃貸+販売+その他) ; 収益認識基準適用後; share>>100 because total OP only 7 億 (COVID)
+Keio_9008,FY2022,2023-03,528.41,120.90,214.79,56.3,old_def_pre2023,旧不動産業 per FY2022 tanshin comparatives
+Keio_9008,FY2023,2024-03,654.28,120.18,438.40,27.4,old_def_pre2023,旧不動産業 as reported in FY2023 tanshin
+Keio_9008,FY2023R,2024-03,767.84,134.85,438.40,30.8,restated_FY2024_def,FY2023 restated in FY2024 tanshin after 商業施設運営 moved from 流通業 to 不動産賃貸業 (京王SCクリエイション)
+Keio_9008,FY2024,2025-03,942.25,181.77,541.48,33.6,FY2024_def,FY2024 tanshin def; includes SC business and Revita hotels
+Keio_9008,FY2024N,2025-03,915,176,541,32.5,new_def_2025,FY2025 deck restated FY2024 to new segments (hotel split out)
+Keio_9008,FY2025,2026-03,1207,171,523,32.7,new_def_2025,新セグメント 2025年度以降; actual
+Keio_9008,FY2026F,2027-03,1294,187,510,36.7,forecast,company plan 2026-05-13
+Odakyu_9007,FY2021,2022-03,809.46,185.70,61.52,301.9,as_reported,segment 不動産業; share>>100 because total OP depressed (COVID)
+Odakyu_9007,FY2022,2023-03,840.34,180.47,266.01,67.8,as_reported,segment 不動産業
+Odakyu_9007,FY2023,2024-03,793.93,171.90,507.66,33.9,as_reported,segment 不動産業
+Odakyu_9007,FY2024,2025-03,958.97,158.52,514.31,30.8,as_reported,segment 不動産業
+Odakyu_9007,FY2025,2026-03,962.26,154.73,526.59,29.4,as_reported,segment 不動産業; actual
+Odakyu_9007,FY2026F,2027-03,1291,191,550,34.7,forecast,company forecast 2026-11-16 (分譲 戸数増)
