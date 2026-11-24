@@ -1,0 +1,6 @@
+# 65歲以上人口占比達7% 14% 21% 之年份 來源: UN World Population Prospects 2024 中位推計 WPP2024_PopulationByAge5GroupSex_Medium.csv.gz (https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_PopulationByAge5GroupSex_Medium.csv.gz) 本檔由65-69至100+各組加總除以全年齡 時點為7月1日 取首次>=門檻之年 日本=Japan 中國=China(不含港澳台) 台灣=China Taiwan Province of China
+# 注意 21%為本研究依聯合國超高齡社會定義(21%)採用 台灣官方(國發會)超高齡門檻為20% 已另列; 2000年後年份屬推計(2024版)
+country,pct_65plus_reaches_7,pct_65plus_reaches_14,pct_65plus_reaches_21,years_7_to_14,years_14_to_21,wpp_share_2025_pct,wpp_share_2035_pct,wpp_share_2050_pct,tfr_wpp_2024,tfr_latest_national_stat,tfr_latest_note
+japan,1970,1994,2007,24,13,29.99,32.71,37.48,1.217,1.14,2025年厚生労働省人口動態統計確定數(2026-09-30公布)
+china,2000,2023,2034,23,11,14.91,22.79,30.92,1.013,0.96,2025年人口學者推算(沿用本地檔02-data-reality.md 官方未公布TFR)
+taiwan,1994,2018,2027,24,9,20.06,28.33,38.74,0.863,0.695,2025年內政部統計(經自由時報2026-04-05轉載)

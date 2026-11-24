@@ -1,0 +1,54 @@
+# 日本 台灣 中國三方對照 蒐集日2026-11-24~25 數值欄不含千分位 文字欄逗號以頓號或空白代替 value欄為~表範圍 詳見m5_comparison.md
+indicator,country,city,value,unit,as_of,definition,source
+政策利率,日本,全國,1.25,%,2026-11-24,BOJ無擔保隔夜拆款利率誘導目標 2026-09-18升至1.25 2026-10-30維持,https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf (沿用本repo data/m1/m1b_boj_policy_rate.csv) 交叉 https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.JP+CN+TW
+政策利率,台灣,全國,2.0,%,2024-03-22起至2026-11-24,中央銀行重貼現率(擔保放款融通利率2.375 短期融通利率4.25),https://www.cbc.gov.tw/tw/lp-640-1.html
+政策利率,中國,全國,3.0,%,2026-10-20,1年期LPR(BIS採為中國政策利率) 5年期以上LPR為3.5,https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026102008303870640/index.html
+政策利率_7天逆回購,中國,全國,1.4,%,2026-08,人行7天期逆回購利率 2024-09由1.7降至1.5 後降至1.4,沿用本地檔 04-policy-latest.md 該檔引騰訊網 https://news.qq.com/rain/a/20260824A0642F00 (B級轉載 未回查人行原文)
+房貸利率_變動,日本,全國,1.195~1.590,%,2026-11,14家主要銀行新貸款變動型表面利率範圍 MUFG1.195 Resona1.240 Mizuho1.275 SMBC1.525 SBI新生1.590 未含保證費或団信差異,https://diamond-fudosan.jp/articles/-/1113360 (沿用 data/m1/m1b_current.md 第6節 WebFetch摘要)
+房貸利率_長期固定,日本,全國,3.81,%,2026-11,フラット35(買取型)最低利率 21-35年 該來源內文漲跌敘述自相矛盾 10月為3.83,https://diamond-fudosan.jp/articles/-/1113360 與 https://kumanichi.com/articles/2041676 (沿用 data/m1/m1b_mortgage_rates.csv)
+房貸利率,台灣,全國,2.318,%,2026Q1,五大銀行(台銀 合庫 土銀 華銀 一銀)新承做購屋貸款平均利率 內政部引央行,https://pip.moi.gov.tw/Upload/CustomFile/Doc/115Q1房價負擔能力指標統計成果.pdf
+房貸利率,台灣,全國,2.29,%,2026-07,五大銀行新承做購屋貸款利率月值 央行資料經媒體轉述 搜尋片段未讀原表,https://www.cnyes.com 搜尋結果摘要 (見md)
+房貸利率,中國,全國,3.1,%,2026-06,新發放個人住房貸款利率約數 人行調查統計司司長於國新辦7月15日記者會所述 經媒體轉述 另Q1新發放商業性個人住房貸款加權平均3.06(媒體轉述),https://finance.eastmoney.com/a/202607153807825850.html (搜尋摘要 未讀全文)
+房價所得比,日本,東京都,17.00,倍,2024,東京カンテイ 新築マンション70㎡換算價格(1億815萬円)除以平均年收636萬円 年收出處未見明載 媒體轉述 另有一說13.9倍(同機構 5月7日發布 以假設世帯年収800萬円 70㎡價格1億1150萬円)兩者口徑不同未能釐清,https://www.moneypost.jp/1368440 與 https://www.stepon.co.jp/f-news/2025/0508_3504/
+房價所得比,日本,東京都,14.81,倍,2022,東京カンテイ 新築マンション年収倍率 同上口徑 媒體轉述,搜尋結果摘要 未讀原文 (見md)
+房價所得比,台灣,臺北市,14.72,倍,2026Q1,中位數住宅價格除以中位數家戶可支配所得 實價登錄+財政部綜所稅,https://pip.moi.gov.tw/Upload/CustomFile/Doc/115Q1房價負擔能力指標統計成果.pdf
+房價所得比,台灣,全國,9.47,倍,2026Q1,同上,https://pip.moi.gov.tw/Upload/CustomFile/Doc/115Q1房價負擔能力指標統計成果.pdf
+房價所得比,台灣,臺北市,16.43,倍,2024Q4,同上 歷史高點附近,https://pip.moi.gov.tw/Upload/CustomFile/Doc/113年房價負擔能力第4季發布內容(平台).pdf
+房價所得比,台灣,臺北市,15.41,倍,2025Q2,同上(本地檔誤記為2025年值),https://pip.moi.gov.tw/Upload/CustomFile/Doc/114年房價負擔能力第2季發布內容(平台).pdf
+房價所得比,台灣,臺北市,14.62,倍,2025Q4,同上,https://pip.moi.gov.tw/Upload/CustomFile/Doc/114Q4房價負擔能力指標統計成果.pdf
+房貸負擔率,台灣,臺北市,64.41,%,2026Q1,中位數住宅價格 貸款成數7成 20年本息均攤 月付額除以中位數月家戶可支配所得,https://pip.moi.gov.tw/Upload/CustomFile/Doc/115Q1房價負擔能力指標統計成果.pdf
+房貸負擔率,台灣,全國,41.46,%,2026Q1,同上,https://pip.moi.gov.tw/Upload/CustomFile/Doc/115Q1房價負擔能力指標統計成果.pdf
+房價所得比,中國,北京_上海_深圳,40以上,倍,2020,Rogoff與Yang估計(倫敦22 紐約12) 沿用本地檔05-comparators.md 該檔[43] 本次未回查原論文 年份與所得口徑未核,沿用本地檔 05-comparators.md [43] (Rogoff & Yang 論文)
+租金收益率,日本,首都圈,3.28,%,2025,東京カンテイ新築マンションPER 30.46(價格相當於同駅勢圏賃料幾年份) 取倒數為本研究自行推算 屬毛收益概念 賃料為推定賃料,https://www.nomu.com/mansion/library/trend/report/per20260507_shuto.html
+租金收益率,日本,東京23區,5.22,%,2025,健美家 區分マンション 刊登之收益物件 表面利回り平均 為投資用中古掛牌 非一般住宅 不可與其他列直接比,https://www.kenbiya.com (搜尋結果摘要 未讀原文 見md)
+租金收益率,台灣,臺北市,2.68,%,2026Q1,標準租金單價1454元/坪(是否月租來源未載明)乘12除以標準住宅均價65萬元/坪 本研究自行推算 非官方收益率,https://www.nownews.com/news/6862907 (引臺北市地政局)
+租金收益率,中國,50城平均,2.31,%,2026-10,中指研究院 租金房價比 掛牌或成交口徑未載明 北京上海分城值未取得,https://finance.eastmoney.com/a/202611133930565460.html
+空屋率,日本,全國,13.8,%,2023-10-01,住宅土地統計調查 空き家/總住宅 含賃貸用49.3% 売却用3.6% 二次的4.3% 其他42.8% 調查員外觀與訪查判定,https://www.stat.go.jp/data/jyutaku/2023/pdf/kihon_gaiyou.pdf
+空屋率_其他空き家,日本,全國,5.9,%,2023-10-01,賃貸 売却 二次的住宅以外之空き家(385.6萬戶)/總住宅,https://www.stat.go.jp/data/jyutaku/2023/pdf/kihon_gaiyou.pdf
+空屋率,日本,東京都,10.9,%,2023-10-01,同上 897千戶/8201千戶,https://www.stat.go.jp/data/jyutaku/2023/pdf/kihon_gaiyou.pdf (付表)
+空屋率_其他空き家,日本,東京都,2.6,%,2023-10-01,同上 其他空き家214千戶/總住宅,https://www.stat.go.jp/data/jyutaku/2023/pdf/kihon_gaiyou.pdf (付表)
+低度使用住宅率,台灣,全國,9.44,%,2025下半年,內政部 房屋稅籍住宅類宅數中11 12月平均每月用電度數<=60度者 894582宅 上半年(5 6月)為10.43,https://www.chinatimes.com/realtimenews/20260720003386-260407 (媒體轉述內政部新聞稿 未讀統計表原文)
+低度使用住宅率,台灣,臺北市,6.39,%,2025下半年,同上 58648宅,https://www.chinatimes.com/realtimenews/20260720003386-260407
+空置率,中國,城鎮,21.4,%,2017,西南財大CHFS 空置=單套家庭外出務工自有住房空置+多套家庭未自住未出租含裝修與期房 含結構性空置 約6500萬套 抽樣364區縣約4萬戶 方法有爭議 國家電網用電法同年11.9(大中城市)與13.9(小城市),https://www.cna.com.tw/news/acn/201812220223.aspx 與 https://cs.com.cn/xwzx/msxf/201812/t20181227_5909227.html (搜尋摘要 未讀全文)
+住宅自有率,日本,全國,60.9,%,2023-10-01,持ち家住宅數/居住世帯あり住宅 3387.6萬戶 以住宅戶計 非以家戶計,https://www.stat.go.jp/data/jyutaku/2023/pdf/kihon_gaiyou.pdf
+住宅自有率,日本,東京都,44.7,%,2023-10-01,同上 3235千戶,https://www.stat.go.jp/data/jyutaku/2023/pdf/kihon_gaiyou.pdf (付表)
+住宅自有率,台灣,全國,84.4,%,2024,主計總處家庭收支調查 含不同住之配偶 父母或子女所有(約5.56) 口徑偏寬,https://money.udn.com/money/story/5621/9707866 (搜尋摘要 未讀全文) 2025年83.95
+住宅自有率,台灣,臺北市,84.0,%,2019,臺北市主計處 同系列 108年底,https://www-ws.gov.taipei/001/Upload/367/relfile/46908/8267413/3969f481-847a-429f-92a8-96d91f10e5a0.pdf (搜尋摘要)
+住宅自有率,中國,全國,73.0,%,2020,第七次人口普查 家庭戶住房來源 中信證券解讀 自建加購買商品房等 含農村 2010年74.9 自有商品房59.8,https://pdf.dfcfw.com/pdf/H3_AP202105171492199759_1.pdf 為搜尋命中研報之一 數值引自搜尋摘要 未回查年鑑
+家戶負債占GDP,日本,全國,60.8,%,2026Q1,BIS 家戶及NPISH信貸/GDP 市場價值 調整斷點,https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.JP+CN+TW.H.A.M.770.A
+家戶負債占GDP,中國,全國,57.5,%,2026Q1,BIS 同上 2025Q4為58.0 2020Q4為60.6 NIFD口徑2025年59.4(本地檔),https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.JP+CN+TW.H.A.M.770.A
+家戶負債占GDP,台灣,全國,92.62,%,2024年底,央行金融穩定報告 家庭部門借款餘額/GDP 非BIS口徑 BIS資料集無台灣 2025年底較低但數值未取得,沿用本地檔 07-taiwan.md [55] 該檔引 https://smart.businessweekly.com.tw/Reading/IndepArticle.aspx?id=6019408
+65歲以上占比,日本,全國,29.99,%,2025,UN WPP 2024 中位推計 7月1日,https://population.un.org/wpp/ (WPP2024_PopulationByAge5GroupSex_Medium)
+65歲以上占比,台灣,全國,20.06,%,2025,UN WPP 2024 另國發會稱2025進入超高齡社會(>=20%),https://population.un.org/wpp/
+65歲以上占比,中國,全國,14.91,%,2025,UN WPP 2024 不含港澳台 本地檔記官方2025年底15.9,https://population.un.org/wpp/ 與沿用本地檔 02-data-reality.md [23]
+總生育率,日本,全國,1.14,人,2025,厚生労働省人口動態統計確定數 2026-09-30公布 東京都0.96,https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei25/dl/04_houdouR07.pdf
+總生育率,台灣,全國,0.695,人,2025,內政部 2024為0.885 出生107812,https://ec.ltn.com.tw/article/breakingnews/5393039 (自由時報轉載內政部)
+總生育率,中國,全國,0.96,人,2025,人口學者推算 官方未公布 UN WPP 2024為1.01(2024),沿用本地檔 02-data-reality.md [24] 未回查原文
+持有稅_自住,日本,東京23區,固定資產稅1.4加都市計畫稅上限0.3,%,FY2026,對固定資產課稅台帳價格(評價額)課稅 住宅用地特例 小規模(200㎡內)課稅標準為價格1/6(都計稅1/3) 一般住宅用地1/3(都計稅2/3) 新築住宅3年減半 非對市價課稅 評價額與市價比例本次未查,https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi
+持有稅_自住,台灣,全國,房屋稅1.0或1.2 地價稅自用住宅2‰,%,2025起,房屋稅條例第5條 全國單一自住1.0 其餘自住1.2 對房屋現值課稅 土地稅法第17條自用住宅用地3公畝內千分之二,https://www.mof.gov.tw/house/multiplehtml/fb9a2a1b9efa426bb0cc7802e1a8da91 與 https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340096&flno=17
+持有稅_非自住,台灣,全國,房屋稅2.0至4.8 出租申報租賃所得1.5至2.4,%,2024-07-01施行 2025-05首次開徵,囤房稅2.0 全國歸戶 全數累進 地方訂差別稅率 地價稅一般基本稅率10‰累進至55‰(土地稅法第16條),https://www.mof.gov.tw/house/multiplehtml/fb9a2a1b9efa426bb0cc7802e1a8da91 與 https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340096&flno=16
+持有稅,中國,上海,0.4或0.6,%,2011暫行辦法 2025調整,僅對本市居民家庭新購第二套及以上與非本市居民新購住房 人均60㎡內免稅 2025年9月優化 對符合條件之非滬籍首套暫免 稅率0.4 0.6為搜尋片段 重慶稅率未取得 全國無統一住房持有稅,https://finance.ifeng.com/c/8mmDxjnVtiH (讀頁 未含稅率) 與搜尋摘要
+都更同意門檻,台灣,全國,1/2至4/5,比例,2026,都市更新條例 事業概要1/2 事業計畫優先3/4 迅行與公辦1/2 自劃4/5 比例以私有土地及合法建物所有權人數與土地面積及樓地板面積計 危老條例重建100%同意 施行至116年5月31日 都更累計核定1291件(1998-2026 媒體引內政部),https://twur.nlma.gov.tw/resources/website/download_file/69/都更法宣資料.pdf 與 https://www.ctee.com.tw/news/20260415700626-430601 (搜尋摘要)
+都更平均期間,台灣,全國,未取得,年,,官方或研究平均期間公開查無 僅個案報導等候10餘年,搜尋未命中
+城市更新,中國,全國,城中村改造,政策,2024-10,住建部宣布新增100萬套城中村與危舊房改造 以貨幣化安置為主 2026-04政治局提城市更新 無統一同意門檻數據取得,沿用本地檔 04-policy-latest.md [71] (鳳凰網 僅標題)
+都更_日本,日本,東京,見m2,,,市街地再開発事業等 由 data/m2 另行蒐集,tokyo-case-study/data/m2
