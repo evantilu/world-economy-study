@@ -53,6 +53,7 @@ const Chart=(function(){
     // x ticks
     const maxT=narrow?5:8;let idx=[];
     if(numX&&spec.type==='line'){const st=nice(spec.x[0],spec.x[n-1],maxT-1);const xs=spec.x;st.forEach(v=>{let b=-1,bd=1e9;xs.forEach((x,i)=>{const d=Math.abs(x-v);if(d<bd){bd=d;b=i}});if(bd<1e-9||Math.abs(xs[b]-v)<=(xs[1]-xs[0])/2)if(!idx.includes(b))idx.push(b);});}
+    else if(spec.x.every(v=>/^\d{4}-\d{2}-\d{2}$/.test(v))){const mk=spec.x.map((v,i)=>i===0||v.slice(0,7)!==spec.x[i-1].slice(0,7)?i:-1).filter(i=>i>=0);const lim=narrow?4:6;const st=Math.ceil(mk.length/lim);idx=mk.filter((_,k)=>k%st===0);idx.lab=i=>spec.x[i].slice(0,7).replace('-','/');}
     else if(spec.x.every(v=>/^\d{4}-\d{2}$/.test(v))){const jan=spec.x.map((v,i)=>v.endsWith('-01')?i:-1).filter(i=>i>=0);const st=Math.ceil(jan.length/maxT);idx=jan.filter((_,k)=>k%st===0);idx.lab=i=>spec.x[i].slice(0,4);}
     else{const step=Math.ceil(n/maxT);for(let i=0;i<n;i+=step)idx.push(i);}
     idx.forEach(i=>{const tx=el('text',{x:X(i),y:H-6,'text-anchor':'middle'});tx.textContent=idx.lab?idx.lab(i):spec.x[i];});
